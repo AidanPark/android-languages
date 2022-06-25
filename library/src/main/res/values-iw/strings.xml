@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="language_name_afrikaans">אפריקנס</string>
+    <string name="language_name_albanian">אלבנית</string>
+    <string name="language_name_arabic">ערבית</string>
+    <string name="language_name_armenian">ארמנית</string>
+    <string name="language_name_auto">אוט\'</string>
+    <string name="language_name_azerbaijani">אזרבייג\'נית</string>
+    <string name="language_name_basque">בסקית</string>
+    <string name="language_name_belarusian">בלארוסית</string>
+    <string name="language_name_bengali">בנגאלית</string>
+    <string name="language_name_bosnian">בוסנית</string>
+    <string name="language_name_bulgarian">בולגרית</string>
+    <string name="language_name_burmese">בורמזית</string>
+    <string name="language_name_cantonese">קנטונזית</string>
+    <string name="language_name_catalan">קטלני</string>
+    <string name="language_name_chinese_classical">סינית קלאסית</string>
+    <string name="language_name_chinese_simplified">סינית פשוטה</string>
+    <string name="language_name_chinese_traditional">סינית מסורתית</string>
+    <string name="language_name_croatian">קרואטית</string>
+    <string name="language_name_czech">צ\'כיה</string>
+    <string name="language_name_danish">דנית</string>
+    <string name="language_name_dutch">הולנדית</string>
+    <string name="language_name_english">אנגלית</string>
+    <string name="language_name_estonian">אסטונית</string>
+    <string name="language_name_filipino">פיליפינית</string>
+    <string name="language_name_finnish">פינית</string>
+    <string name="language_name_french">צרפתית</string>
+    <string name="language_name_galician">גליציאנית</string>
+    <string name="language_name_georgian">גיאורגית</string>
+    <string name="language_name_german">גרמנית</string>
+    <string name="language_name_greek">יוונית</string>
+    <string name="language_name_gujarati">גוג\'אראטי</string>
+    <string name="language_name_hebrew">עברית</string>
+    <string name="language_name_hindi">הינדית</string>
+    <string name="language_name_hungarian">הונגרית</string>
+    <string name="language_name_icelandic">איסלנדי</string>
+    <string name="language_name_indonesian">אינדונזית</string>
+    <string name="language_name_irish">אירי</string>
+    <string name="language_name_italian">איטלקית</string>
+    <string name="language_name_japanese">יפנית</string>
+    <string name="language_name_kannada">קנאדה</string>
+    <string name="language_name_kazakh">קזאחית</string>
+    <string name="language_name_khmer">חמר</string>
+    <string name="language_name_korean">קוריאנית</string>
+    <string name="language_name_lao">Lao</string>
+    <string name="language_name_latvian">לטבית</string>
+    <string name="language_name_lithuanian">ליטאית</string>
+    <string name="language_name_macedonian">מקדונית</string>
+    <string name="language_name_malay">מלאית</string>
+    <string name="language_name_malayalam">מלאיאלאם</string>
+    <string name="language_name_marathi">מאראת\'י</string>
+    <string name="language_name_mongolian">מונגולית</string>
+    <string name="language_name_nepali">נפאלית</string>
+    <string name="language_name_norwegian">נורווגית</string>
+    <string name="language_name_persian">פרסית</string>
+    <string name="language_name_polish">פולנית</string>
+    <string name="language_name_portuguese">פורטוגזית</string>
+    <string name="language_name_punjabi">פנג\'אבי</string>
+    <string name="language_name_romanian">רומנית</string>
+    <string name="language_name_russian">רוסית</string>
+    <string name="language_name_serbian">סרבית</string>
+    <string name="language_name_sinhala">סינהלה</string>
+    <string name="language_name_slovak">סלובקית</string>
+    <string name="language_name_slovenian">סלובנית</string>
+    <string name="language_name_spanish">ספרדית</string>
+    <string name="language_name_swedish">שוודית</string>
+    <string name="language_name_tajik">טדג\'יקית</string>
+    <string name="language_name_tamil">טאמילית</string>
+    <string name="language_name_telugu">טלוגו</string>
+    <string name="language_name_thai">תאילנדי</string>
+    <string name="language_name_turkish">טורקית</string>
+    <string name="language_name_ukrainian">אוקראינית</string>
+    <string name="language_name_urdu">אורדו</string>
+    <string name="language_name_uzbek">אוזבקית</string>
+    <string name="language_name_vietnamese">וייטנאמית</string>
+
+    <!-- 2018-08-17 추가 -->
+    <string name="language_name_amharic">אמהרית</string>
+    <string name="language_name_cebuano">סבואנו</string>
+    <string name="language_name_corsican">קורסיקאית</string>
+    <string name="language_name_esperanto">אספרנטו</string>
+    <string name="language_name_frisian">פריזית</string>
+    <string name="language_name_hausa">האוסה</string>
+    <string name="language_name_hawaiian">הוואית</string>
+    <string name="language_name_hmong">המונג</string>
+    <string name="language_name_igbo">איגדו</string>
+    <string name="language_name_javanese">ג\'אווה</string>
+    <string name="language_name_kurdish">כורדית</string>
+    <string name="language_name_kyrgyz">קירגיזית</string>
+    <string name="language_name_latin">לטינית</string>
+    <string name="language_name_luxembourgish">לוקסמבורגית</string>
+    <string name="language_name_malagasy">מלגשית</string>
+    <string name="language_name_maltese">מלטית</string>
+    <string name="language_name_maori">מאורית</string>
+    <string name="language_name_nyanja">צ\'יצ\'ווה</string>
+    <string name="language_name_pashto">פשטו</string>
+    <string name="language_name_samoan">סמואית</string>
+    <string name="language_name_scots_gaelic">סקוטית גאלית</string>
+    <string name="language_name_sesotho">ססות\'ו</string>
+    <string name="language_name_shona">שונה</string>
+    <string name="language_name_sindhi">סינדהי</string>
+    <string name="language_name_somali">סומלית</string>
+    <string name="language_name_sundanese">סונדית</string>
+    <string name="language_name_swahili">סוואהילית</string>
+    <string name="language_name_welsh">וולשית</string>
+    <string name="language_name_xhosa">קוהסה</string>
+    <string name="language_name_yiddish">יידיש</string>
+    <string name="language_name_yoruba">יורובה</string>
+    <string name="language_name_zulu">זולו</string>
+
+    <!-- 2018-08-20 추가 -->
+    <string name="language_name_fijian">פיג\'ית</string>
+    <string name="language_name_haitian_creole">קריאולית האיטית</string>
+    <string name="language_name_klingon">קלינגון</string>
+    <string name="language_name_klingon_plqad">קלינגונית (plqaD)</string>
+    <string name="language_name_queretaro_otomi">קרטרו אוטומי</string>
+    <string name="language_name_serbian_cyrillic">סרבית (קירילית)</string>
+    <string name="language_name_serbian_latin">סרבית (לטינית)</string>
+    <string name="language_name_tahitian">טהיטית</string>
+    <string name="language_name_tongan">טונגאית</string>
+
+    <!-- 2018-08-22 추가 -->
+    <string name="language_name_yucatec_maya">יוקטק מאיה</string>
+
+</resources>

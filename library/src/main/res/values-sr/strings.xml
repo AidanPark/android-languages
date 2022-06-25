@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="language_name_afrikaans">Afrikans</string>
+    <string name="language_name_albanian">Albanski</string>
+    <string name="language_name_arabic">Arapski</string>
+    <string name="language_name_armenian">Jermenski</string>
+    <string name="language_name_auto">Auto</string>
+    <string name="language_name_azerbaijani">Azerbejdžanski</string>
+    <string name="language_name_basque">Baskijski</string>
+    <string name="language_name_belarusian">Beloruski</string>
+    <string name="language_name_bengali">Bengalski</string>
+    <string name="language_name_bosnian">Bosanski</string>
+    <string name="language_name_bulgarian">Bugarski</string>
+    <string name="language_name_burmese">Burmanski</string>
+    <string name="language_name_cantonese">Cantonese</string>
+    <string name="language_name_catalan">Katalonski</string>
+    <string name="language_name_chinese_classical">Klasični kineski</string>
+    <string name="language_name_chinese_simplified">Kineski (pojednostavljeni)</string>
+    <string name="language_name_chinese_traditional">Kineski (tradicionalni)</string>
+    <string name="language_name_croatian">Hrvatski</string>
+    <string name="language_name_czech">Češki</string>
+    <string name="language_name_danish">Danski</string>
+    <string name="language_name_dutch">Dutch</string>
+    <string name="language_name_english">English</string>
+    <string name="language_name_estonian">Estonski</string>
+    <string name="language_name_filipino">Filipinski</string>
+    <string name="language_name_finnish">Finski</string>
+    <string name="language_name_french">Francuski</string>
+    <string name="language_name_galician">Galicijski</string>
+    <string name="language_name_georgian">Gruzijski</string>
+    <string name="language_name_german">Nemački</string>
+    <string name="language_name_greek">Grčki</string>
+    <string name="language_name_gujarati">Gudžarati</string>
+    <string name="language_name_hebrew">Hebrejski</string>
+    <string name="language_name_hindi">Hindi</string>
+    <string name="language_name_hungarian">Mađarski</string>
+    <string name="language_name_icelandic">Islandski</string>
+    <string name="language_name_indonesian">Indonesian</string>
+    <string name="language_name_irish">Irski</string>
+    <string name="language_name_italian">Italijanski</string>
+    <string name="language_name_japanese">Japanski</string>
+    <string name="language_name_kannada">Kanadski</string>
+    <string name="language_name_kazakh">Kazaški</string>
+    <string name="language_name_khmer">Kmerski</string>
+    <string name="language_name_korean">Korejski</string>
+    <string name="language_name_lao">Lao</string>
+    <string name="language_name_latvian">Letonski</string>
+    <string name="language_name_lithuanian">Litvanski</string>
+    <string name="language_name_macedonian">Makedonski</string>
+    <string name="language_name_malay">Malajski</string>
+    <string name="language_name_malayalam">Malajalam</string>
+    <string name="language_name_marathi">Marati</string>
+    <string name="language_name_mongolian">Mongolski</string>
+    <string name="language_name_nepali">Nepalski jezik</string>
+    <string name="language_name_norwegian">Norveški</string>
+    <string name="language_name_persian">Persijski</string>
+    <string name="language_name_polish">Poljski</string>
+    <string name="language_name_portuguese">Portugalski</string>
+    <string name="language_name_punjabi">Pandžabi</string>
+    <string name="language_name_romanian">Rumunski</string>
+    <string name="language_name_russian">Ruski</string>
+    <string name="language_name_serbian">Srpski</string>
+    <string name="language_name_sinhala">Sinhala jezik</string>
+    <string name="language_name_slovak">Slovački</string>
+    <string name="language_name_slovenian">Slovenački</string>
+    <string name="language_name_spanish">Španski</string>
+    <string name="language_name_swedish">Swedish</string>
+    <string name="language_name_tajik">Tadžički</string>
+    <string name="language_name_tamil">Tamilski</string>
+    <string name="language_name_telugu">Telugu</string>
+    <string name="language_name_thai">Tajlandski</string>
+    <string name="language_name_turkish">Turski</string>
+    <string name="language_name_ukrainian">Ukrajinski</string>
+    <string name="language_name_urdu">Urdu</string>
+    <string name="language_name_uzbek">Uzbečki</string>
+    <string name="language_name_vietnamese">Вијетнамски</string>
+
+    <!-- 2018-08-17 추가 -->
+    <string name="language_name_amharic">Амхарски</string>
+    <string name="language_name_cebuano">Себуано</string>
+    <string name="language_name_corsican">Корзикански</string>
+    <string name="language_name_esperanto">Есперанто</string>
+    <string name="language_name_frisian">Фризијски</string>
+    <string name="language_name_hawaiian">Хавајски</string>
+    <string name="language_name_hmong">Хмонг</string>
+    <string name="language_name_igbo">Игбо</string>
+    <string name="language_name_javanese">Јавански</string>
+    <string name="language_name_kurdish">Курдски</string>
+    <string name="language_name_kyrgyz">Киргиски</string>
+    <string name="language_name_latin">Латински</string>
+    <string name="language_name_luxembourgish">Луксембуршки</string>
+    <string name="language_name_malagasy">Малгашки</string>
+    <string name="language_name_maltese">Малтешки</string>
+    <string name="language_name_maori">Маорски</string>
+    <string name="language_name_nyanja">Чичева</string>
+    <string name="language_name_pashto">Паштунски</string>
+    <string name="language_name_samoan">Самоански</string>
+    <string name="language_name_scots_gaelic">Шкотски галски</string>
+    <string name="language_name_sesotho">Сесото</string>
+    <string name="language_name_shona">Шона</string>
+    <string name="language_name_sindhi">Синди</string>
+    <string name="language_name_somali">Сомалски</string>
+    <string name="language_name_sundanese">Сундски</string>
+    <string name="language_name_swahili">Свахили</string>
+    <string name="language_name_welsh">Велшки</string>
+    <string name="language_name_xhosa">Хауса</string>
+    <string name="language_name_yiddish">Јидиш</string>
+    <string name="language_name_yoruba">Јоруба</string>
+    <string name="language_name_zulu">Зулу</string>
+
+    <!-- 2018-08-20 추가 -->
+    <string name="language_name_fijian">фиџи</string>
+    <string name="language_name_haitian_creole">хаићански креолски</string>
+    <string name="language_name_klingon">клингонски</string>
+    <string name="language_name_klingon_plqad">клингонски (plqaD)</string>
+    <string name="language_name_queretaro_otomi">Отоми из државе Керетаро</string>
+    <string name="language_name_serbian_cyrillic">српски (ћирилица)</string>
+    <string name="language_name_serbian_latin">српски (латиница)</string>
+    <string name="language_name_tahitian">тахићански</string>
+    <string name="language_name_tongan">тонгански</string>
+
+    <!-- 2018-08-22 추가 -->
+    <string name="language_name_hmong_daw">Hmong Daw</string>
+    <string name="language_name_yucatec_maya">Јукатански језик Маја</string>
+
+</resources>

@@ -1,0 +1,191 @@
+<resources>
+    <string name="language_name_afrikaans">Afrikaans</string>
+    <string name="language_name_albanian">Shqip</string>
+    <string name="language_name_arabic">Arabic</string>
+    <string name="language_name_armenian">Armenian</string>
+    <string name="language_name_auto">Auto</string>
+    <string name="language_name_azerbaijani">Azerbaijani</string>
+    <string name="language_name_basque">Basque</string>
+    <string name="language_name_belarusian">Belarusian</string>
+    <string name="language_name_bengali">Bengali</string>
+    <string name="language_name_bosnian">Bosnian</string>
+    <string name="language_name_bulgarian">Bulgarian</string>
+    <string name="language_name_burmese">Burmese</string>
+    <string name="language_name_cantonese">Cantonese</string>
+    <string name="language_name_catalan">Catalan</string>
+    <string name="language_name_chinese_classical">Chinese Classical</string>
+    <string name="language_name_chinese_simplified">Chinese Simplified</string>
+    <string name="language_name_chinese_traditional">Chinese Traditional</string>
+    <string name="language_name_croatian">Croatian</string>
+    <string name="language_name_czech">Czech</string>
+    <string name="language_name_danish">Danish</string>
+    <string name="language_name_dutch">Dutch</string>
+    <string name="language_name_english">English</string>
+    <string name="language_name_estonian">Estonian</string>
+    <string name="language_name_filipino">Filipino</string>
+    <string name="language_name_finnish">Finnish</string>
+    <string name="language_name_french">French</string>
+    <string name="language_name_galician">Galician</string>
+    <string name="language_name_georgian">Georgian</string>
+    <string name="language_name_german">German</string>
+    <string name="language_name_greek">Greek</string>
+    <string name="language_name_gujarati">Gujarati</string>
+    <string name="language_name_hebrew">Hebrew</string>
+    <string name="language_name_hindi">Hindi</string>
+    <string name="language_name_hungarian">Hungarian</string>
+    <string name="language_name_icelandic">Icelandic</string>
+    <string name="language_name_indonesian">Indonesian</string>
+    <string name="language_name_irish">Irish</string>
+    <string name="language_name_italian">Italian</string>
+    <string name="language_name_japanese">Japanese</string>
+    <string name="language_name_kannada">Kannada</string>
+    <string name="language_name_kazakh">Kazakh</string>
+    <string name="language_name_khmer">Khmer</string>
+    <string name="language_name_korean">Korean</string>
+    <string name="language_name_lao">Lao</string>
+    <string name="language_name_latvian">Latvian</string>
+    <string name="language_name_lithuanian">Lithuanian</string>
+    <string name="language_name_macedonian">Macedonian</string>
+    <string name="language_name_malay">Malay</string>
+    <string name="language_name_malayalam">Malayalam</string>
+    <string name="language_name_marathi">Marathi</string>
+    <string name="language_name_mongolian">Mongolian</string>
+    <string name="language_name_nepali">Nepali</string>
+    <string name="language_name_norwegian">Norwegian</string>
+    <string name="language_name_persian">Persian</string>
+    <string name="language_name_polish">Polish</string>
+    <string name="language_name_portuguese">Portuguese</string>
+    <string name="language_name_punjabi">Punjabi</string>
+    <string name="language_name_romanian">Romanian</string>
+    <string name="language_name_russian">Russian</string>
+    <string name="language_name_serbian">Serbian</string>
+    <string name="language_name_sinhala">Sinhala</string>
+    <string name="language_name_slovak">Slovak</string>
+    <string name="language_name_slovenian">Slovenian</string>
+    <string name="language_name_spanish">Spanish</string>
+    <string name="language_name_swedish">Swedish</string>
+    <string name="language_name_tajik">Tajik</string>
+    <string name="language_name_tamil">Tamil</string>
+    <string name="language_name_telugu">Telugu</string>
+    <string name="language_name_thai">Thai</string>
+    <string name="language_name_turkish">Turkish</string>
+    <string name="language_name_ukrainian">Ukrainian</string>
+    <string name="language_name_urdu">Urdu</string>
+    <string name="language_name_uzbek">Uzbek</string>
+    <string name="language_name_vietnamese">Vietnamese</string>
+
+    <!-- 2018-08-14 추가 -->
+    <string name="language_name_afar" translatable="false">Afar</string>
+    <string name="language_name_amharic" translatable="false">Amharic</string>
+    <string name="language_name_aragonese" translatable="false">Aragonese</string>
+    <string name="language_name_assamese" translatable="false">Assamese</string>
+    <string name="language_name_asturian" translatable="false">Asturian</string>
+    <string name="language_name_aymara" translatable="false">Aymara</string>
+    <string name="language_name_berber" translatable="false">Berber</string>
+    <string name="language_name_bislama" translatable="false">Bislama</string>
+    <string name="language_name_breton" translatable="false">Breton</string>
+    <string name="language_name_cebuano" translatable="false">Cebuano</string>
+    <string name="language_name_chamorro" translatable="false">Chamorro</string>
+    <string name="language_name_cherokee" translatable="false">Cherokee</string>
+    <string name="language_name_cornish" translatable="false">Cornish</string>
+    <string name="language_name_corsican" translatable="false">Corsican</string>
+    <string name="language_name_cree" translatable="false">Cree</string>
+    <string name="language_name_esperanto" translatable="false">Esperanto</string>
+    <string name="language_name_faroese" translatable="false">Faroese</string>
+    <string name="language_name_fijian" translatable="false">Fijian</string>
+    <string name="language_name_frisian" translatable="false">Frisian</string>
+    <string name="language_name_frisian_northern" translatable="false">Frisian Northern</string>
+    <string name="language_name_frisian_saterland" translatable="false">Frisian Saterland</string>
+    <string name="language_name_frisian_western" translatable="false">Frisian Western</string>
+    <string name="language_name_fula" translatable="false">Fula</string>
+    <string name="language_name_gikuyu" translatable="false">Gikuyu (Kikuyu)</string>
+    <string name="language_name_guarani" translatable="false">Guaraní</string>
+    <string name="language_name_haitian_creole" translatable="false">Haitian Creole</string>
+    <string name="language_name_hausa" translatable="false">Hausa</string>
+    <string name="language_name_hawaiian" translatable="false">Hawaiian</string>
+    <string name="language_name_hiri" translatable="false">Hiri Motu</string>
+    <string name="language_name_hmong" translatable="false">Hmong</string>
+    <string name="language_name_hmong_daw" translatable="false">Hmong Daw</string>
+    <string name="language_name_ido" translatable="false">Ido</string>
+    <string name="language_name_igbo" translatable="false">Igbo</string>
+    <string name="language_name_ilocano" translatable="false">Ilocano</string>
+    <string name="language_name_innu" translatable="false">Innu Aimun (Montagnais)</string>
+    <string name="language_name_interlingua" translatable="false">Interlingua</string>
+    <string name="language_name_javanese" translatable="false">Javanese</string>
+    <string name="language_name_judeo" translatable="false">Judeo Spanish</string>
+    <string name="language_name_kabyle" translatable="false">Kabyle</string>
+    <string name="language_name_khasi" translatable="false">Khasi</string>
+    <string name="language_name_kinyarwanda" translatable="false">Kinyarwanda</string>
+    <string name="language_name_kirundi" translatable="false">Kirundi</string>
+    <string name="language_name_klingon" translatable="false">Klingon</string>
+    <string name="language_name_klingon_plqad" translatable="false">Klingon plqad</string>
+    <string name="language_name_kongo" translatable="false">Kongo</string>
+    <string name="language_name_konkani" translatable="false">Konkani</string>
+    <string name="language_name_kurdish" translatable="false">Kurdish</string>
+    <string name="language_name_kyrgyz" translatable="false">Kyrgyz</string>
+    <string name="language_name_latin" translatable="false">Latin</string>
+    <string name="language_name_laz" translatable="false">Laz</string>
+    <string name="language_name_levantine_northern" translatable="false">Levantine Northern</string>
+    <string name="language_name_levantine_southern" translatable="false">Levantine Southern</string>
+    <string name="language_name_lingala" translatable="false">Lingala</string>
+    <string name="language_name_luganda" translatable="false">Luganda</string>
+    <string name="language_name_luxembourgish" translatable="false">Luxembourgish</string>
+    <string name="language_name_malagasy" translatable="false">Malagasy</string>
+    <string name="language_name_maltese" translatable="false">Maltese</string>
+    <string name="language_name_manx" translatable="false">Manx</string>
+    <string name="language_name_maori" translatable="false">Maori</string>
+    <string name="language_name_marshallese" translatable="false">Marshallese</string>
+    <string name="language_name_moldovan" translatable="false">Moldovan</string>
+    <string name="language_name_montenegrin" translatable="false">Montenegrin</string>
+    <string name="language_name_nahuatl" translatable="false">Nahuatl</string>
+    <string name="language_name_nauruan" translatable="false">Nauruan</string>
+    <string name="language_name_ndebele_northern" translatable="false">Ndebele Northern</string>
+    <string name="language_name_ndebele_southern" translatable="false">Ndebele Southern</string>
+    <string name="language_name_nyanja" translatable="false">Nyanja (Chichewa)</string>
+    <string name="language_name_occitan" translatable="false">Occitan</string>
+    <string name="language_name_oromo" translatable="false">Oromo</string>
+    <string name="language_name_palauan" translatable="false">Palauan</string>
+    <string name="language_name_pashto" translatable="false">Pashto</string>
+    <string name="language_name_quechua" translatable="false">Quechua</string>
+    <string name="language_name_queretaro_otomi" translatable="false">Queretaro Otomi</string>
+    <string name="language_name_rohingya" translatable="false">Rohingya</string>
+    <string name="language_name_romansh" translatable="false">Romansh</string>
+    <string name="language_name_samoan" translatable="false">Samoan</string>
+    <string name="language_name_sanskrit" translatable="false">Sanskrit</string>
+    <string name="language_name_scots" translatable="false">Scots</string>
+    <string name="language_name_scots_gaelic" translatable="false">Scots Gaelic</string>
+    <string name="language_name_serbian_cyrillic" translatable="false">Serbian Cyrillic</string>
+    <string name="language_name_serbian_latin" translatable="false">Serbian Latin</string>
+    <string name="language_name_sesotho" translatable="false">Sesotho (Sotho Southern)</string>
+    <string name="language_name_seychellois" translatable="false">Seychellois Creole</string>
+    <string name="language_name_shona" translatable="false">Shona</string>
+    <string name="language_name_sindhi" translatable="false">Sindhi</string>
+    <string name="language_name_somali" translatable="false">Somali</string>
+    <string name="language_name_sotho" translatable="false">Sotho Northern</string>
+    <string name="language_name_sundanese" translatable="false">Sundanese</string>
+    <string name="language_name_swahili" translatable="false">Swahili</string>
+    <string name="language_name_swati" translatable="false">Swati</string>
+    <string name="language_name_tahitian" translatable="false">Tahitian</string>
+    <string name="language_name_tatar" translatable="false">Tatar</string>
+    <string name="language_name_tetum" translatable="false">Tetum</string>
+    <string name="language_name_tok" translatable="false">Tok Pisin</string>
+    <string name="language_name_tongan" translatable="false">Tongan</string>
+    <string name="language_name_tsonga" translatable="false">Tsonga</string>
+    <string name="language_name_tswana" translatable="false">Tswana</string>
+    <string name="language_name_tunisian" translatable="false">Tunisian Arabic</string>
+    <string name="language_name_turkmen" translatable="false">Turkmen</string>
+    <string name="language_name_turoyo" translatable="false">Turoyo</string>
+    <string name="language_name_vastese" translatable="false">Vastese</string>
+    <string name="language_name_venda" translatable="false">Venda</string>
+    <string name="language_name_volapuk" translatable="false">Volapük</string>
+    <string name="language_name_voro" translatable="false">Võro</string>
+    <string name="language_name_walloon" translatable="false">Walloon</string>
+    <string name="language_name_welsh" translatable="false">Welsh</string>
+    <string name="language_name_wolof" translatable="false">Wolof</string>
+    <string name="language_name_xhosa" translatable="false">Xhosa</string>
+    <string name="language_name_yiddish" translatable="false">Yiddish</string>
+    <string name="language_name_yoruba" translatable="false">Yoruba</string>
+    <string name="language_name_yucatec_maya" translatable="false">Yucatec Maya</string>
+    <string name="language_name_zazaki" translatable="false">Zazaki (Zaza)</string>
+    <string name="language_name_zulu" translatable="false">Zulu</string>
+</resources>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="language_name_afrikaans">Afrikánčina</string>
+    <string name="language_name_albanian">Albánčina</string>
+    <string name="language_name_arabic">Arabčina</string>
+    <string name="language_name_armenian">Arménčina</string>
+    <string name="language_name_auto">Automatický</string>
+    <string name="language_name_azerbaijani">Azerbajdžančina</string>
+    <string name="language_name_basque">Baskičtina</string>
+    <string name="language_name_belarusian">Bieloruština</string>
+    <string name="language_name_bengali">Bengálčina</string>
+    <string name="language_name_bosnian">Bosniančina</string>
+    <string name="language_name_bulgarian">Bulharčina</string>
+    <string name="language_name_burmese">Barmčina</string>
+    <string name="language_name_cantonese">Cantonese</string>
+    <string name="language_name_catalan">Katalánčina</string>
+    <string name="language_name_chinese_classical">Klasická čínština</string>
+    <string name="language_name_chinese_simplified">Zjednodušená čínština</string>
+    <string name="language_name_chinese_traditional">Tradičná čínština</string>
+    <string name="language_name_croatian">Chorvátčina</string>
+    <string name="language_name_czech">Čeština</string>
+    <string name="language_name_danish">Dánčina</string>
+    <string name="language_name_dutch">Holandčina</string>
+    <string name="language_name_english">Angličtina</string>
+    <string name="language_name_estonian">Estónčina</string>
+    <string name="language_name_filipino">Filipínčina</string>
+    <string name="language_name_finnish">Fínčina</string>
+    <string name="language_name_french">Francúzština</string>
+    <string name="language_name_galician">Galícijčina</string>
+    <string name="language_name_georgian">Gruzínčina</string>
+    <string name="language_name_german">Nemčina</string>
+    <string name="language_name_greek">Gréčtina</string>
+    <string name="language_name_gujarati">Gudžarátčina</string>
+    <string name="language_name_hebrew">Hebrejská</string>
+    <string name="language_name_hindi">Hindčina</string>
+    <string name="language_name_hungarian">Maďarčina</string>
+    <string name="language_name_icelandic">Islandčina</string>
+    <string name="language_name_indonesian">Indonézština</string>
+    <string name="language_name_irish">Írčina</string>
+    <string name="language_name_italian">Taliančina</string>
+    <string name="language_name_japanese">Japončina</string>
+    <string name="language_name_kannada">Kannadčina</string>
+    <string name="language_name_kazakh">Kazaština</string>
+    <string name="language_name_khmer">Khmérčina</string>
+    <string name="language_name_korean">Kórejčina</string>
+    <string name="language_name_lao">Laoština</string>
+    <string name="language_name_latvian">Lotyština</string>
+    <string name="language_name_lithuanian">Litovská</string>
+    <string name="language_name_macedonian">Macedónčina</string>
+    <string name="language_name_malay">Malajčina</string>
+    <string name="language_name_malayalam">Malajálamčina</string>
+    <string name="language_name_marathi">Maráthčina</string>
+    <string name="language_name_mongolian">Mongolčina</string>
+    <string name="language_name_nepali">Nepálčina</string>
+    <string name="language_name_norwegian">Nórčina</string>
+    <string name="language_name_persian">Perzština</string>
+    <string name="language_name_polish">Poľština</string>
+    <string name="language_name_portuguese">Portugalčina</string>
+    <string name="language_name_punjabi">Pandžábčina</string>
+    <string name="language_name_romanian">Rumunčina</string>
+    <string name="language_name_russian">Ruština</string>
+    <string name="language_name_serbian">Srbčina</string>
+    <string name="language_name_sinhala">Sinhalčina</string>
+    <string name="language_name_slovak">Slovenčina</string>
+    <string name="language_name_slovenian">Slovinčina</string>
+    <string name="language_name_spanish">Španielčina</string>
+    <string name="language_name_swedish">Švédčina</string>
+    <string name="language_name_tajik">Tadžičtina</string>
+    <string name="language_name_tamil">Tamilčina</string>
+    <string name="language_name_telugu">Telugčina</string>
+    <string name="language_name_thai">Thajčina</string>
+    <string name="language_name_turkish">Turečtina</string>
+    <string name="language_name_ukrainian">Ukrajinčina</string>
+    <string name="language_name_urdu">Urdčina</string>
+    <string name="language_name_uzbek">Uzbečtina</string>
+    <string name="language_name_vietnamese">Vietnamčina</string>
+
+    <!-- 2018-08-17 추가 -->
+    <string name="language_name_amharic">Amharčina</string>
+    <string name="language_name_cebuano">Cebuánčina</string>
+    <string name="language_name_corsican">Korzičtina</string>
+    <string name="language_name_esperanto">Esperanto</string>
+    <string name="language_name_frisian">Frízština</string>
+    <string name="language_name_hausa">Hauština</string>
+    <string name="language_name_hawaiian">Havajčina</string>
+    <string name="language_name_hmong">Hmongčina</string>
+    <string name="language_name_igbo">Igboština</string>
+    <string name="language_name_javanese">Jávčina</string>
+    <string name="language_name_kurdish">Kurdčina</string>
+    <string name="language_name_kyrgyz">Kirgizština</string>
+    <string name="language_name_latin">Latinčina</string>
+    <string name="language_name_luxembourgish">Luxemburčina</string>
+    <string name="language_name_malagasy">Malagština</string>
+    <string name="language_name_maltese">Maltčina</string>
+    <string name="language_name_maori">Maorijčina</string>
+    <string name="language_name_nyanja">Ňandža</string>
+    <string name="language_name_pashto">Pašto</string>
+    <string name="language_name_samoan">Samojčina</string>
+    <string name="language_name_scots_gaelic">Škótska gaelčina</string>
+    <string name="language_name_sesotho">Sothčina</string>
+    <string name="language_name_shona">Shona</string>
+    <string name="language_name_sindhi">Sindčina</string>
+    <string name="language_name_somali">Somálčina</string>
+    <string name="language_name_sundanese">Sundčina</string>
+    <string name="language_name_swahili">Svahilčina</string>
+    <string name="language_name_welsh">Waleština</string>
+    <string name="language_name_xhosa">Xhosa</string>
+    <string name="language_name_yiddish">Jidiš</string>
+    <string name="language_name_yoruba">Jorubčina</string>
+    <string name="language_name_zulu">Zuluština</string>
+
+    <!-- 2018-08-20 추가 -->
+    <string name="language_name_fijian">Fidžijčina</string>
+    <string name="language_name_klingon">klingónčina</string>
+    <string name="language_name_klingon_plqad">Klingončina (plqaD) (plqaD)</string>
+    <string name="language_name_queretaro_otomi">Keratónska otomčina</string>
+    <string name="language_name_serbian_cyrillic">srbčina (cyrilika)</string>
+    <string name="language_name_serbian_latin">srbčina (latinka)</string>
+    <string name="language_name_tahitian">thajčina</string>
+    <string name="language_name_tongan">Tongčina</string>
+
+    <!-- 2018-08-22 추가 -->
+    <string name="language_name_hmong_daw">hmong daw</string>
+    <string name="language_name_yucatec_maya">Jakutská majčina</string>
+
+</resources>
