@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="io.voyagersoft.android.locale.test">
+    package="io.aidanpark.android.lang.test">
 
     <application
         android:allowBackup="true"
@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidLocale">
         <activity
-            android:name="io.separk.android.locale.test.ui.LocaleListActivity"
+            android:name=".LocaleListActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.AndroidLocale">
