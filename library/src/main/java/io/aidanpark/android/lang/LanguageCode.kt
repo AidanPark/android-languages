@@ -28,10 +28,10 @@ data class LanguageCode(val value: String, val standard: LanguageStandard? = nul
     }
 
     override fun toString(): String {
-        return "LanguageCode(\n" +
-                "\tvalue='$value', \n" +
-                "\tstandard=$standard\n" +
-                ")"
+        return "{\n" +
+                "\t\tcode: '$value', \n" +
+                "\t\tstandard: '$standard'\n" +
+                "\t}"
     }
 
     companion object {

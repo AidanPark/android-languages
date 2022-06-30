@@ -24,8 +24,20 @@ class ExampleInstrumentedTest {
         assertEquals("io.aidanpark.android.lang.test", appContext.packageName)
 
         Language.getAllLanguages(appContext)
+            .sorted()
             .map {
-                Log.d("LangTest", "\n\n"+it.toString())
+//                Log.d("", StringBuilder().append("\n<tr>")
+//                    .append("\n\t<td>").append(it.name).append("</td")
+//                    .append("\n\t<td>").append(it.code?.value ?: "").append("</td")
+//                    .append("\n\t<td>").append(it.code?.standard ?: "").append("</td")
+//                    .append("\n\t<td>").append(it.localizedName).append("</td")
+//                    .append("\n\t<td>").append(it.isNonSpacing).append("</td")
+//                    .append("\n\t<td>").append(it.isVerticalSupport).append("</td")
+//                    .append("\n\t<td>").append(it.isRTL).append("</td")
+//                    .append("\n</tr>").toString()
+//                )
+
+                Log.d("", "\n$it,")
             }
     }
 }

@@ -20,6 +20,7 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import io.aidanpark.android.lang.Language
+import java.util.*
 
 @Composable
 fun LocalesScreen(
@@ -83,15 +84,17 @@ private fun LanguageContent(language: Language) {
                 .weight(1f)
                 .padding(12.dp)
         ) {
-            Text(text = language.englishName)
-//            Text(text = language.localizedName)
-//            Text(text = Language.localedName(LocalContext.current, language.id, Locale.KOREA))
             Text(
                 text = language.name,
                 style = MaterialTheme.typography.h4.copy(
                     fontWeight = FontWeight.ExtraBold
                 )
             )
+
+//            Text(text = language.englishName)
+//            Text(text = language.localizedName)
+            Text(text = Language.localedName(LocalContext.current, language.id, Locale.KOREA))
+
             if (expanded) {
                 Text(
                     text = language.toString(),
