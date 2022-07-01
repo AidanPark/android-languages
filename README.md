@@ -1698,6 +1698,8 @@ Provides properties of languages (name, code, etc..) in an Android environment.
 
 
 
+# from https://github.com/championswimmer/android-locales
+
 <table border="1">
 <tbody><tr><td>NOTE: These are updated to Android 5.0.1</td>
 <td> </td>
