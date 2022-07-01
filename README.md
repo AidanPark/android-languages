@@ -1697,7 +1697,7 @@ Provides properties of languages (name, code, etc..) in an Android environment.
 
 
 
-
+<font size="12"><b>from https://github.com/championswimmer/android-locales</b></font>
 # from https://github.com/championswimmer/android-locales
 
 <table border="1">
