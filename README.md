@@ -1,7 +1,5 @@
-# android-languages
+# android-languages [![](https://jitpack.io/v/AidanPark/android-languages.svg)](https://jitpack.io/#AidanPark/android-languages)
 Provides properties of languages (name, code, etc..) in an Android environment.
-
-[![](https://jitpack.io/v/AidanPark/android-languages.svg)](https://jitpack.io/#AidanPark/android-languages)
 
 <table border="1">
 <tbody>
@@ -1701,7 +1699,7 @@ Provides properties of languages (name, code, etc..) in an Android environment.
 <br>
 <br>
 <font size="12"><b>from https://github.com/championswimmer/android-locales</b></font>
-
+<br>
 <table border="1">
 <tbody><tr><td>NOTE: These are updated to Android 5.0.1</td>
 <td> </td>
