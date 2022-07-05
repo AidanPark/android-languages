@@ -1,4 +1,4 @@
-package io.aidanpark.android.lang.test.theme
+package io.aidanpark.android.lang.test.ui.theme
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material.MaterialTheme

@@ -1,5 +1,5 @@
 # android-languages
-Provides properties of languages.
+Provides properties of languages (name, code, etc.) in an Android environment.
 
 [![](https://jitpack.io/v/AidanPark/android-languages.svg)](https://jitpack.io/#AidanPark/android-languages)
 
