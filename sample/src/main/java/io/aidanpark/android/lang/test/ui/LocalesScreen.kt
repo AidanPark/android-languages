@@ -20,6 +20,7 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import io.aidanpark.android.lang.Language
+import io.aidanpark.android.lang.LanguageId
 import io.aidanpark.android.lang.test.R
 import java.util.*
 

@@ -14,1680 +14,192 @@ Provides properties of languages (name, code, etc..) in an Android environment.
     <td><b>isRTL</b></td>
 </tr>
 
-<tr>
-	<td>Afar</td>
-	<td>aa</td>
-	<td>ISO_639_1</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Afrikaans</td>
-	<td>af</td>
-	<td>ISO_639_1</td>
-	<td>Afrikaans</td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Albanian</td>
-	<td>sq</td>
-	<td>ISO_639_1</td>
-	<td>Shqip</td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Amharic</td>
-	<td>am</td>
-	<td>ISO_639_1</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Arabic</td>
-	<td>ar</td>
-	<td>ISO_639_1</td>
-	<td>العربية</td>
-	<td>false</td>
-	<td>false</td>
-	<td>true</td>
-</tr>
-<tr>
-	<td>Aragonese</td>
-	<td>an</td>
-	<td>ISO_639_1</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Armenian</td>
-	<td>hy</td>
-	<td>ISO_639_1</td>
-	<td>Հայերեն</td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Assamese</td>
-	<td>as</td>
-	<td>ISO_639_1</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Asturian</td>
-	<td>ast</td>
-	<td>ISO_639_2</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Aymara</td>
-	<td>ay</td>
-	<td>ISO_639_1</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Azerbaijani</td>
-	<td>az</td>
-	<td>ISO_639_1</td>
-	<td>Azərbaycan</td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Basque</td>
-	<td>eu</td>
-	<td>ISO_639_1</td>
-	<td>Euskara</td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Belarusian</td>
-	<td>be</td>
-	<td>ISO_639_1</td>
-	<td>Беларуская</td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Bengali</td>
-	<td>bn</td>
-	<td>ISO_639_1</td>
-	<td>বাংলা</td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Berber</td>
-	<td>ber</td>
-	<td>ISO_639_3</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Bislama</td>
-	<td>bi</td>
-	<td>ISO_639_1</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Bosnian</td>
-	<td>bs</td>
-	<td>ISO_639_1</td>
-	<td>Босанци</td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Breton</td>
-	<td>br</td>
-	<td>ISO_639_1</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Bulgarian</td>
-	<td>bg</td>
-	<td>ISO_639_1</td>
-	<td>Български</td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Burmese</td>
-	<td>my</td>
-	<td>ISO_639_1</td>
-	<td>မြန်မာ(Unicode)</td>
-	<td>true</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Cantonese</td>
-	<td>yue</td>
-	<td>ISO_639_3</td>
-	<td>粤语</td>
-	<td>true</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Catalan</td>
-	<td>ca</td>
-	<td>ISO_639_1</td>
-	<td>Català</td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Cebuano</td>
-	<td>ceb</td>
-	<td>ISO_639_2</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Chamorro</td>
-	<td>ch</td>
-	<td>ISO_639_1</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Cherokee</td>
-	<td>chr</td>
-	<td>ISO_639_2</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Chinese Classical</td>
-	<td></td>
-	<td></td>
-	<td>文言文</td>
-	<td>false</td>
-	<td>true</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Chinese Simplified</td>
-	<td>zh-CN</td>
-	<td>BCP_47</td>
-	<td>中文（简体)</td>
-	<td>false</td>
-	<td>true</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Chinese Traditional</td>
-	<td>zh-TW</td>
-	<td>BCP_47</td>
-	<td>中文（繁體)</td>
-	<td>false</td>
-	<td>true</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Cornish</td>
-	<td>kw</td>
-	<td>ISO_639_1</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Corsican</td>
-	<td>co</td>
-	<td>ISO_639_1</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Cree</td>
-	<td>cr</td>
-	<td>ISO_639_1</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Croatian</td>
-	<td>hr</td>
-	<td>ISO_639_1</td>
-	<td>Hrvatski</td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Czech</td>
-	<td>cs</td>
-	<td>ISO_639_1</td>
-	<td>Čeština</td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Danish</td>
-	<td>da</td>
-	<td>ISO_639_1</td>
-	<td>Dansk</td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Dutch</td>
-	<td>nl</td>
-	<td>ISO_639_1</td>
-	<td>Nederlands</td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>English</td>
-	<td>en</td>
-	<td>ISO_639_1</td>
-	<td>English</td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Esperanto</td>
-	<td>eo</td>
-	<td>ISO_639_1</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Estonian</td>
-	<td>et</td>
-	<td>ISO_639_1</td>
-	<td>Eesti</td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Faroese</td>
-	<td>fo</td>
-	<td>ISO_639_1</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Fijian</td>
-	<td>fj</td>
-	<td>ISO_639_3</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Filipino</td>
-	<td>tl</td>
-	<td>ISO_639_1</td>
-	<td>Filipino</td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Finnish</td>
-	<td>fi</td>
-	<td>ISO_639_1</td>
-	<td>Suomi</td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>French</td>
-	<td>fr</td>
-	<td>ISO_639_1</td>
-	<td>Français</td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Frisian</td>
-	<td>fy</td>
-	<td>ISO_639_1</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Frisian Northern</td>
-	<td>stq</td>
-	<td>ISO_639_3</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Frisian Saterland</td>
-	<td>frr</td>
-	<td>ISO_639_3</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Frisian Western</td>
-	<td>fry</td>
-	<td>ISO_639_3</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Fula</td>
-	<td>ff</td>
-	<td>ISO_639_1</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>true</td>
-</tr>
-<tr>
-	<td>Galician</td>
-	<td>gl</td>
-	<td>ISO_639_1</td>
-	<td>Galego</td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Georgian</td>
-	<td>ka</td>
-	<td>ISO_639_1</td>
-	<td>ქართული</td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>German</td>
-	<td>de</td>
-	<td>ISO_639_1</td>
-	<td>Deutsch</td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Gikuyu (Kikuyu)</td>
-	<td>ki</td>
-	<td>ISO_639_1</td>
-	<td>GIKUYU</td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Greek</td>
-	<td>el</td>
-	<td>ISO_639_1</td>
-	<td>Ελληνικά</td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Guaraní</td>
-	<td>gug</td>
-	<td>ISO_639_3</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Gujarati</td>
-	<td>gu</td>
-	<td>ISO_639_1</td>
-	<td>ગુજરાતી</td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Haitian Creole</td>
-	<td>ht</td>
-	<td>ISO_639_1</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Hausa</td>
-	<td>ha</td>
-	<td>ISO_639_1</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Hawaiian</td>
-	<td>haw</td>
-	<td>ISO_639_2</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Hebrew</td>
-	<td>iw</td>
-	<td>ISO_639_1</td>
-	<td>עברית</td>
-	<td>false</td>
-	<td>false</td>
-	<td>true</td>
-</tr>
-<tr>
-	<td>Hindi</td>
-	<td>hi</td>
-	<td>ISO_639_1</td>
-	<td>हिन्दी</td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Hiri Motu</td>
-	<td>ho</td>
-	<td></td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Hmong</td>
-	<td>hmn</td>
-	<td>ISO_639_2</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Hmong Daw</td>
-	<td>mww</td>
-	<td>ISO_639_3</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Hungarian</td>
-	<td>hu</td>
-	<td>ISO_639_1</td>
-	<td>Magyar</td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Icelandic</td>
-	<td>is</td>
-	<td>ISO_639_1</td>
-	<td>Íslenska</td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Ido</td>
-	<td>io</td>
-	<td>ISO_639_1</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Igbo</td>
-	<td>ig</td>
-	<td>ISO_639_1</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Ilocano</td>
-	<td>ilo</td>
-	<td>ISO_639_2</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Indonesian</td>
-	<td>id</td>
-	<td>ISO_639_1</td>
-	<td>Bahasa Indonesia</td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Innu Aimun (Montagnais)</td>
-	<td>moe</td>
-	<td>ISO_639_3</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Interlingua</td>
-	<td>ina</td>
-	<td>ISO_639_2</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Irish</td>
-	<td>ga</td>
-	<td>ISO_639_1</td>
-	<td>Gaeilge</td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Italian</td>
-	<td>it</td>
-	<td>ISO_639_1</td>
-	<td>Italiano</td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Japanese</td>
-	<td>ja</td>
-	<td>ISO_639_1</td>
-	<td>日本語</td>
-	<td>true</td>
-	<td>true</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Javanese</td>
-	<td>jw</td>
-	<td>ISO_639_1</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Judeo Spanish</td>
-	<td>lad</td>
-	<td>ISO_639_2</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Kabyle</td>
-	<td>kab</td>
-	<td>ISO_639_2</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Kannada</td>
-	<td>kn</td>
-	<td>ISO_639_1</td>
-	<td>ಕನ್ನಡ</td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Kazakh</td>
-	<td>kk</td>
-	<td>ISO_639_1</td>
-	<td>Қазақша</td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Khasi</td>
-	<td>kha</td>
-	<td>ISO_639_2</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Khmer</td>
-	<td>km</td>
-	<td>ISO_639_1</td>
-	<td>ខ្មែរយូនីកូដ</td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Kinyarwanda</td>
-	<td>rw</td>
-	<td>ISO_639_1</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Kirundi</td>
-	<td>rn</td>
-	<td>ISO_639_1</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Klingon</td>
-	<td>tlh</td>
-	<td>ISO_639_2</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Klingon plqad</td>
-	<td>tlh-Qaak</td>
-	<td></td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Kongo</td>
-	<td>kg</td>
-	<td>ISO_639_1</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Konkani</td>
-	<td>kok</td>
-	<td>ISO_639_1</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Korean</td>
-	<td>ko</td>
-	<td>ISO_639_1</td>
-	<td>한국어</td>
-	<td>false</td>
-	<td>true</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Kurdish</td>
-	<td>ku</td>
-	<td>ISO_639_1</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>true</td>
-</tr>
-<tr>
-	<td>Kyrgyz</td>
-	<td>ky</td>
-	<td>ISO_639_1</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Lao</td>
-	<td>lo</td>
-	<td>ISO_639_1</td>
-	<td>ລາວ</td>
-	<td>true</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Latin</td>
-	<td>la</td>
-	<td>ISO_639_1</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Latvian</td>
-	<td>lv</td>
-	<td>ISO_639_1</td>
-	<td>Latviešu</td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Laz</td>
-	<td>lzz</td>
-	<td>ISO_639_3</td>
-	<td>LAZ</td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Levantine Northern</td>
-	<td>apc</td>
-	<td>ISO_639_3</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Levantine Southern</td>
-	<td>ajp</td>
-	<td>ISO_639_3</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Lingala</td>
-	<td>ln</td>
-	<td>ISO_639_1</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Lithuanian</td>
-	<td>lt</td>
-	<td>ISO_639_1</td>
-	<td>Lietuvių</td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Luganda</td>
-	<td>lg</td>
-	<td>ISO_639_1</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Luxembourgish</td>
-	<td>lb</td>
-	<td>ISO_639_1</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Macedonian</td>
-	<td>mk</td>
-	<td>ISO_639_1</td>
-	<td>Македонски</td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Malagasy</td>
-	<td>mg</td>
-	<td>ISO_639_1</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Malay</td>
-	<td>ms</td>
-	<td>ISO_639_1</td>
-	<td>Bahasa Melayu</td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Malayalam</td>
-	<td>ml</td>
-	<td>ISO_639_1</td>
-	<td>മലയാളം</td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Maltese</td>
-	<td>mt</td>
-	<td>ISO_639_1</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Manx</td>
-	<td>gv</td>
-	<td>ISO_639_1</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Maori</td>
-	<td>mi</td>
-	<td>ISO_639_1</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Marathi</td>
-	<td>mr</td>
-	<td>ISO_639_1</td>
-	<td>मराठी</td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Marshallese</td>
-	<td>mh</td>
-	<td>ISO_639_1</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Moldovan</td>
-	<td>mo</td>
-	<td>ISO_639_1</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Mongolian</td>
-	<td>mn</td>
-	<td>ISO_639_1</td>
-	<td>Монгол</td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Montenegrin</td>
-	<td>cnr</td>
-	<td>ISO_639_2</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Nahuatl</td>
-	<td>nah</td>
-	<td>ISO_639_2</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Nauruan</td>
-	<td>na</td>
-	<td>ISO_639_1</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Ndebele Northern</td>
-	<td>nde</td>
-	<td>ISO_639_2</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Ndebele Southern</td>
-	<td>nr</td>
-	<td>ISO_639_1</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Nepali</td>
-	<td>ne</td>
-	<td>ISO_639_1</td>
-	<td>नेपाली</td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Norwegian</td>
-	<td>no</td>
-	<td>ISO_639_1</td>
-	<td>Norsk</td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Nyanja (Chichewa)</td>
-	<td>ny</td>
-	<td>ISO_639_1</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Occitan</td>
-	<td>oc</td>
-	<td>ISO_639_1</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Oromo</td>
-	<td>om</td>
-	<td>ISO_639_1</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Palauan</td>
-	<td>pau</td>
-	<td>ISO_639_2</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Pashto</td>
-	<td>ps</td>
-	<td>ISO_639_1</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Persian</td>
-	<td>fa</td>
-	<td>ISO_639_1</td>
-	<td>فارسی</td>
-	<td>false</td>
-	<td>false</td>
-	<td>true</td>
-</tr>
-<tr>
-	<td>Polish</td>
-	<td>pl</td>
-	<td>ISO_639_1</td>
-	<td>Polski</td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Portuguese</td>
-	<td>pt</td>
-	<td>ISO_639_1</td>
-	<td>Português</td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Punjabi</td>
-	<td>pa</td>
-	<td>ISO_639_1</td>
-	<td>ਪੰਜਾਬੀ </td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Quechua</td>
-	<td>qu</td>
-	<td>ISO_639_1</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Queretaro Otomi</td>
-	<td>otq</td>
-	<td>ISO_639_3</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Rohingya</td>
-	<td>rhg</td>
-	<td>ISO_639_3</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>true</td>
-</tr>
-<tr>
-	<td>Romanian</td>
-	<td>ro</td>
-	<td>ISO_639_1</td>
-	<td>Română</td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Romansh</td>
-	<td>rm</td>
-	<td>ISO_639_1</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Russian</td>
-	<td>ru</td>
-	<td>ISO_639_1</td>
-	<td>Русский</td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Samoan</td>
-	<td>sm</td>
-	<td>ISO_639_1</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Sanskrit</td>
-	<td>sa</td>
-	<td>ISO_639_1</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Scots</td>
-	<td>sco</td>
-	<td>ISO_639_2</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Scots Gaelic</td>
-	<td>gd</td>
-	<td>ISO_639_1</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Serbian</td>
-	<td>sr</td>
-	<td>ISO_639_1</td>
-	<td>Srpski</td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Serbian Cyrillic</td>
-	<td>sr-Cyrl</td>
-	<td></td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Serbian Latin</td>
-	<td>sr-Latn</td>
-	<td></td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Sesotho (Sotho Southern)</td>
-	<td>st</td>
-	<td>ISO_639_1</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Seychellois Creole</td>
-	<td>crs</td>
-	<td>ISO_639_3</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Shona</td>
-	<td>sn</td>
-	<td>ISO_639_1</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Sindhi</td>
-	<td>sd</td>
-	<td>ISO_639_1</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Sinhala</td>
-	<td>si</td>
-	<td>ISO_639_1</td>
-	<td>සිංහල</td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Slovak</td>
-	<td>sk</td>
-	<td>ISO_639_1</td>
-	<td>Slovenčina</td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Slovenian</td>
-	<td>sl</td>
-	<td>ISO_639_1</td>
-	<td>Slovenščina</td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Somali</td>
-	<td>so</td>
-	<td>ISO_639_1</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Sotho Northern</td>
-	<td>nso</td>
-	<td>ISO_639_2</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Spanish</td>
-	<td>es</td>
-	<td>ISO_639_1</td>
-	<td>Español</td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Sundanese</td>
-	<td>su</td>
-	<td>ISO_639_1</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Swahili</td>
-	<td>sw</td>
-	<td>ISO_639_1</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Swati</td>
-	<td>ss</td>
-	<td>ISO_639_1</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Swedish</td>
-	<td>sv</td>
-	<td>ISO_639_1</td>
-	<td>Svenska</td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Tahitian</td>
-	<td>ty</td>
-	<td>ISO_639_1</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Tajik</td>
-	<td>tg</td>
-	<td>ISO_639_1</td>
-	<td>Тоҷикӣ</td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Tamil</td>
-	<td>ta</td>
-	<td>ISO_639_1</td>
-	<td>தமிழ்</td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Tatar</td>
-	<td>tt</td>
-	<td>ISO_639_1</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Telugu</td>
-	<td>te</td>
-	<td>ISO_639_1</td>
-	<td>తెలుగు</td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Tetum</td>
-	<td>tet</td>
-	<td>ISO_639_2</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Thai</td>
-	<td>th</td>
-	<td>ISO_639_1</td>
-	<td>ไทย</td>
-	<td>true</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Tok Pisin</td>
-	<td>tpi</td>
-	<td>ISO_639_2</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Tongan</td>
-	<td>to</td>
-	<td>ISO_639_1</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Tsonga</td>
-	<td>ts</td>
-	<td>ISO_639_1</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Tswana</td>
-	<td>tn</td>
-	<td>ISO_639_1</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Tunisian Arabic</td>
-	<td>aeb</td>
-	<td>ISO_639_3</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Turkish</td>
-	<td>tr</td>
-	<td>ISO_639_1</td>
-	<td>Türkçe</td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Turkmen</td>
-	<td>tk</td>
-	<td>ISO_639_1</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Turoyo</td>
-	<td>tru</td>
-	<td>ISO_639_3</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Ukrainian</td>
-	<td>uk</td>
-	<td>ISO_639_1</td>
-	<td>Українська</td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Urdu</td>
-	<td>ur</td>
-	<td>ISO_639_1</td>
-	<td>اردو</td>
-	<td>false</td>
-	<td>false</td>
-	<td>true</td>
-</tr>
-<tr>
-	<td>Uzbek</td>
-	<td>uz</td>
-	<td>ISO_639_1</td>
-	<td>Oʻzbekcha</td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Vastese</td>
-	<td>nap</td>
-	<td>ISO_639_3</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Venda</td>
-	<td>ve</td>
-	<td>ISO_639_1</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Vietnamese</td>
-	<td>vi</td>
-	<td>ISO_639_1</td>
-	<td>Tiếng Việt</td>
-	<td>false</td>
-	<td>true</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Volapük</td>
-	<td>vo</td>
-	<td>ISO_639_1</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Võro</td>
-	<td>vro</td>
-	<td>ISO_639_3</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Walloon</td>
-	<td>wa</td>
-	<td>ISO_639_1</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Welsh</td>
-	<td>cy</td>
-	<td>ISO_639_1</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Wolof</td>
-	<td>wo</td>
-	<td>ISO_639_1</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Xhosa</td>
-	<td>xh</td>
-	<td>ISO_639_1</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Yiddish</td>
-	<td>yi</td>
-	<td>ISO_639_1</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Yoruba</td>
-	<td>yo</td>
-	<td>ISO_639_1</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Yucatec Maya</td>
-	<td>yua</td>
-	<td>ISO_639_3</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Zazaki (Zaza)</td>
-	<td>zza</td>
-	<td>ISO_639_2</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
-<tr>
-	<td>Zulu</td>
-	<td>zu</td>
-	<td>ISO_639_1</td>
-	<td></td>
-	<td>false</td>
-	<td>false</td>
-	<td>false</td>
-</tr>
+<tr><td>Afar</td><td>aa</td><td>ISO_639_1</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Afrikaans</td><td>af</td><td>BCP_47</td><td>Afrikaans</td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Albanian</td><td>sq</td><td>BCP_47</td><td>Shqip</td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Amharic</td><td>am</td><td>ISO_639_1</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Arabic</td><td>ar</td><td>ISO_639_1</td><td>العربية</td><td>false</td><td>false</td><td>true</td></tr>
+<tr><td>Aragonese</td><td>an</td><td>ISO_639_1</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Armenian</td><td>hy</td><td>ISO_639_1</td><td>Հայերեն</td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Assamese</td><td>as</td><td>ISO_639_1</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Asturian</td><td>ast</td><td>ISO_639_2</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Aymara</td><td>ay</td><td>ISO_639_1</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Azerbaijani</td><td>az</td><td>ISO_639_1</td><td>Azərbaycan</td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Basque</td><td>eu</td><td>ISO_639_1</td><td>Euskara</td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Belarusian</td><td>be</td><td>BCP_47</td><td>Беларуская</td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Bengali</td><td>bn</td><td>BCP_47</td><td>বাংলা</td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Berber</td><td>ber</td><td>ISO_639_3</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Bislama</td><td>bi</td><td>ISO_639_1</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Bosnian</td><td>bs</td><td>ISO_639_1</td><td>Босанци</td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Breton</td><td>br</td><td>ISO_639_1</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Bulgarian</td><td>bg</td><td>BCP_47</td><td>Български</td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Burmese</td><td>my</td><td>ISO_639_1</td><td>မြန်မာ(Unicode)</td><td>true</td><td>false</td><td>false</td></tr>
+<tr><td>Cantonese</td><td>yue</td><td>ISO_639_3</td><td>粤语</td><td>true</td><td>false</td><td>false</td></tr>
+<tr><td>Catalan</td><td>ca</td><td>BCP_47</td><td>Català</td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Cebuano</td><td>ceb</td><td>ISO_639_2</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Chamorro</td><td>ch</td><td>ISO_639_1</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Cherokee</td><td>chr</td><td>ISO_639_2</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Chinese Classical</td><td></td><td></td><td>文言文</td><td>false</td><td>true</td><td>false</td></tr>
+<tr><td>Chinese Simplified</td><td>zh-CN</td><td>BCP_47</td><td>中文（简体)</td><td>false</td><td>true</td><td>false</td></tr>
+<tr><td>Chinese Traditional</td><td>zh-TW</td><td>BCP_47</td><td>中文（繁體)</td><td>false</td><td>true</td><td>false</td></tr>
+<tr><td>Cornish</td><td>kw</td><td>ISO_639_1</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Corsican</td><td>co</td><td>ISO_639_1</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Cree</td><td>cr</td><td>ISO_639_1</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Croatian</td><td>hr</td><td>BCP_47</td><td>Hrvatski</td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Czech</td><td>cs</td><td>BCP_47</td><td>Čeština</td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Danish</td><td>da</td><td>BCP_47</td><td>Dansk</td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Dutch</td><td>nl</td><td>BCP_47</td><td>Nederlands</td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>English</td><td>en</td><td>BCP_47</td><td>English</td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Esperanto</td><td>eo</td><td>BCP_47</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Estonian</td><td>et</td><td>BCP_47</td><td>Eesti</td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Faroese</td><td>fo</td><td>ISO_639_1</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Fijian</td><td>fj</td><td>ISO_639_3</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Filipino</td><td>tl</td><td>BCP_47</td><td>Filipino</td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Finnish</td><td>fi</td><td>BCP_47</td><td>Suomi</td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>French</td><td>fr</td><td>BCP_47</td><td>Français</td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Frisian</td><td>fy</td><td>ISO_639_1</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Frisian Northern</td><td>stq</td><td>ISO_639_3</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Frisian Saterland</td><td>frr</td><td>ISO_639_3</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Frisian Western</td><td>fry</td><td>ISO_639_3</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Fula</td><td>ff</td><td>ISO_639_1</td><td></td><td>false</td><td>false</td><td>true</td></tr>
+<tr><td>Galician</td><td>gl</td><td>BCP_47</td><td>Galego</td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Georgian</td><td>ka</td><td>BCP_47</td><td>ქართული</td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>German</td><td>de</td><td>BCP_47</td><td>Deutsch</td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Gikuyu (Kikuyu)</td><td>ki</td><td>ISO_639_1</td><td>GIKUYU</td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Greek</td><td>el</td><td>BCP_47</td><td>Ελληνικά</td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Guaraní</td><td>gug</td><td>ISO_639_3</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Gujarati</td><td>gu</td><td>BCP_47</td><td>ગુજરાતી</td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Haitian Creole</td><td>ht</td><td>BCP_47</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Hausa</td><td>ha</td><td>ISO_639_1</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Hawaiian</td><td>haw</td><td>ISO_639_2</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Hebrew</td><td>iw</td><td>ISO_639_1</td><td>עברית</td><td>false</td><td>false</td><td>true</td></tr>
+<tr><td>Hindi</td><td>hi</td><td>BCP_47</td><td>हिन्दी</td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Hiri Motu</td><td>ho</td><td></td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Hmong</td><td>hmn</td><td>ISO_639_2</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Hmong Daw</td><td>mww</td><td>ISO_639_3</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Hungarian</td><td>hu</td><td>BCP_47</td><td>Magyar</td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Icelandic</td><td>is</td><td>BCP_47</td><td>Íslenska</td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Ido</td><td>io</td><td>ISO_639_1</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Igbo</td><td>ig</td><td>ISO_639_1</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Ilocano</td><td>ilo</td><td>ISO_639_2</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Indonesian</td><td>id</td><td>BCP_47</td><td>Bahasa Indonesia</td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Innu Aimun (Montagnais)</td><td>moe</td><td>ISO_639_3</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Interlingua</td><td>ina</td><td>ISO_639_2</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Irish</td><td>ga</td><td>BCP_47</td><td>Gaeilge</td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Italian</td><td>it</td><td>BCP_47</td><td>Italiano</td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Japanese</td><td>ja</td><td>BCP_47</td><td>日本語</td><td>true</td><td>true</td><td>false</td></tr>
+<tr><td>Javanese</td><td>jw</td><td>ISO_639_1</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Judeo Spanish</td><td>lad</td><td>ISO_639_2</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Kabyle</td><td>kab</td><td>ISO_639_2</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Kannada</td><td>kn</td><td>BCP_47</td><td>ಕನ್ನಡ</td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Kazakh</td><td>kk</td><td>ISO_639_1</td><td>Қазақша</td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Khasi</td><td>kha</td><td>ISO_639_2</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Khmer</td><td>km</td><td>ISO_639_1</td><td>ខ្មែរយូនីកូដ</td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Kinyarwanda</td><td>rw</td><td>ISO_639_1</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Kirundi</td><td>rn</td><td>ISO_639_1</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Klingon</td><td>tlh</td><td>ISO_639_2</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Klingon plqad</td><td>tlh-Qaak</td><td></td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Kongo</td><td>kg</td><td>ISO_639_1</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Konkani</td><td>kok</td><td>ISO_639_1</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Korean</td><td>ko</td><td>BCP_47</td><td>한국어</td><td>false</td><td>true</td><td>false</td></tr>
+<tr><td>Kurdish</td><td>ku</td><td>ISO_639_1</td><td></td><td>false</td><td>false</td><td>true</td></tr>
+<tr><td>Kyrgyz</td><td>ky</td><td>ISO_639_1</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Lao</td><td>lo</td><td>ISO_639_1</td><td>ລາວ</td><td>true</td><td>false</td><td>false</td></tr>
+<tr><td>Latin</td><td>la</td><td>ISO_639_1</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Latvian</td><td>lv</td><td>BCP_47</td><td>Latviešu</td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Laz</td><td>lzz</td><td>ISO_639_3</td><td>LAZ</td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Levantine Northern</td><td>apc</td><td>ISO_639_3</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Levantine Southern</td><td>ajp</td><td>ISO_639_3</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Lingala</td><td>ln</td><td>ISO_639_1</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Lithuanian</td><td>lt</td><td>BCP_47</td><td>Lietuvių</td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Luganda</td><td>lg</td><td>ISO_639_1</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Luxembourgish</td><td>lb</td><td>ISO_639_1</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Macedonian</td><td>mk</td><td>BCP_47</td><td>Македонски</td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Malagasy</td><td>mg</td><td>ISO_639_1</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Malay</td><td>ms</td><td>BCP_47</td><td>Bahasa Melayu</td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Malayalam</td><td>ml</td><td>ISO_639_1</td><td>മലയാളം</td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Maltese</td><td>mt</td><td>BCP_47</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Manx</td><td>gv</td><td>ISO_639_1</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Maori</td><td>mi</td><td>ISO_639_1</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Marathi</td><td>mr</td><td>BCP_47</td><td>मराठी</td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Marshallese</td><td>mh</td><td>ISO_639_1</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Moldovan</td><td>mo</td><td>ISO_639_1</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Mongolian</td><td>mn</td><td>ISO_639_1</td><td>Монгол</td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Montenegrin</td><td>cnr</td><td>ISO_639_2</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Nahuatl</td><td>nah</td><td>ISO_639_2</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Nauruan</td><td>na</td><td>ISO_639_1</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Ndebele Northern</td><td>nde</td><td>ISO_639_2</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Ndebele Southern</td><td>nr</td><td>ISO_639_1</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Nepali</td><td>ne</td><td>ISO_639_1</td><td>नेपाली</td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Norwegian</td><td>no</td><td>BCP_47</td><td>Norsk</td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Nyanja (Chichewa)</td><td>ny</td><td>ISO_639_1</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Occitan</td><td>oc</td><td>ISO_639_1</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Oromo</td><td>om</td><td>ISO_639_1</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Palauan</td><td>pau</td><td>ISO_639_2</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Pashto</td><td>ps</td><td>ISO_639_1</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Persian</td><td>fa</td><td>BCP_47</td><td>فارسی</td><td>false</td><td>false</td><td>true</td></tr>
+<tr><td>Polish</td><td>pl</td><td>BCP_47</td><td>Polski</td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Portuguese</td><td>pt</td><td>BCP_47</td><td>Português</td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Punjabi</td><td>pa</td><td>ISO_639_1</td><td>ਪੰਜਾਬੀ </td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Quechua</td><td>qu</td><td>ISO_639_1</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Queretaro Otomi</td><td>otq</td><td>ISO_639_3</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Rohingya</td><td>rhg</td><td>ISO_639_3</td><td></td><td>false</td><td>false</td><td>true</td></tr>
+<tr><td>Romanian</td><td>ro</td><td>BCP_47</td><td>Română</td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Romansh</td><td>rm</td><td>ISO_639_1</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Russian</td><td>ru</td><td>BCP_47</td><td>Русский</td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Samoan</td><td>sm</td><td>ISO_639_1</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Sanskrit</td><td>sa</td><td>ISO_639_1</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Scots</td><td>sco</td><td>ISO_639_2</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Scots Gaelic</td><td>gd</td><td>ISO_639_1</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Serbian</td><td>sr</td><td>ISO_639_1</td><td>Srpski</td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Serbian Cyrillic</td><td>sr-Cyrl</td><td></td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Serbian Latin</td><td>sr-Latn</td><td></td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Sesotho (Sotho Southern)</td><td>st</td><td>ISO_639_1</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Seychellois Creole</td><td>crs</td><td>ISO_639_3</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Shona</td><td>sn</td><td>ISO_639_1</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Sindhi</td><td>sd</td><td>ISO_639_1</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Sinhala</td><td>si</td><td>ISO_639_1</td><td>සිංහල</td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Slovak</td><td>sk</td><td>BCP_47</td><td>Slovenčina</td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Slovenian</td><td>sl</td><td>BCP_47</td><td>Slovenščina</td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Somali</td><td>so</td><td>ISO_639_1</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Sotho Northern</td><td>nso</td><td>ISO_639_2</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Spanish</td><td>es</td><td>BCP_47</td><td>Español</td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Sundanese</td><td>su</td><td>ISO_639_1</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Swahili</td><td>sw</td><td>ISO_639_1</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Swati</td><td>ss</td><td>ISO_639_1</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Swedish</td><td>sv</td><td>BCP_47</td><td>Svenska</td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Tahitian</td><td>ty</td><td>ISO_639_1</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Tajik</td><td>tg</td><td>ISO_639_1</td><td>Тоҷикӣ</td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Tamil</td><td>ta</td><td>BCP_47</td><td>தமிழ்</td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Tatar</td><td>tt</td><td>ISO_639_1</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Telugu</td><td>te</td><td>BCP_47</td><td>తెలుగు</td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Tetum</td><td>tet</td><td>ISO_639_2</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Thai</td><td>th</td><td>BCP_47</td><td>ไทย</td><td>true</td><td>false</td><td>false</td></tr>
+<tr><td>Tok Pisin</td><td>tpi</td><td>ISO_639_2</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Tongan</td><td>to</td><td>ISO_639_1</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Tsonga</td><td>ts</td><td>ISO_639_1</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Tswana</td><td>tn</td><td>ISO_639_1</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Tunisian Arabic</td><td>aeb</td><td>ISO_639_3</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Turkish</td><td>tr</td><td>BCP_47</td><td>Türkçe</td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Turkmen</td><td>tk</td><td>ISO_639_1</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Turoyo</td><td>tru</td><td>ISO_639_3</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Ukrainian</td><td>uk</td><td>BCP_47</td><td>Українська</td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Urdu</td><td>ur</td><td>BCP_47</td><td>اردو</td><td>false</td><td>false</td><td>true</td></tr>
+<tr><td>Uzbek</td><td>uz</td><td>ISO_639_1</td><td>Oʻzbekcha</td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Vastese</td><td>nap</td><td>ISO_639_3</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Venda</td><td>ve</td><td>ISO_639_1</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Vietnamese</td><td>vi</td><td>BCP_47</td><td>Tiếng Việt</td><td>false</td><td>true</td><td>false</td></tr>
+<tr><td>Volapük</td><td>vo</td><td>ISO_639_1</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Võro</td><td>vro</td><td>ISO_639_3</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Walloon</td><td>wa</td><td>ISO_639_1</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Welsh</td><td>cy</td><td>BCP_47</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Wolof</td><td>wo</td><td>ISO_639_1</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Xhosa</td><td>xh</td><td>ISO_639_1</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Yiddish</td><td>yi</td><td>ISO_639_1</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Yoruba</td><td>yo</td><td>ISO_639_1</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Yucatec Maya</td><td>yua</td><td>ISO_639_3</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Zazaki (Zaza)</td><td>zza</td><td>ISO_639_2</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Zulu</td><td>zu</td><td>ISO_639_1</td><td></td><td>false</td><td>false</td><td>false</td></tr>
 
 </tbody>
 </table>
@@ -1709,10 +221,10 @@ Provides properties of languages (name, code, etc..) in an Android environment.
 <td> </td>
 <td> </td>
 </tr>
-<tr><td><b>Locale Name</td>
-<td><b>locale code</td>
-<td><b>variant (country)</td>
-<td><b>values folder name</td>
+<tr><td><b>Locale Name</b></td>
+<td><b>locale code</b></td>
+<td><b>variant (country)</b></td>
+<td><b>values folder name</b></td>
 </tr>
 <tr><td>Afrikaans</td>
 <td>af</td>

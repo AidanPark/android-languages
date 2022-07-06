@@ -67,6 +67,7 @@ data class LanguageCode(val value: String, val standard: LanguageStandard? = nul
                 "ch" -> return LanguageCode("ch", LanguageStandard.ISO_639_1)
                 "chr" -> return LanguageCode("chr", LanguageStandard.ISO_639_1)
                 "zh-CN" -> return LanguageCode("zh-CN", LanguageStandard.ISO_639_1)
+                "zh" -> return LanguageCode("zh", LanguageStandard.BCP_47)
                 "zh-TW" -> return LanguageCode("zh-TW", LanguageStandard.ISO_639_1)
                 "kw" -> return LanguageCode("kw", LanguageStandard.ISO_639_1)
                 "co" -> return LanguageCode("co", LanguageStandard.ISO_639_1)
@@ -99,6 +100,7 @@ data class LanguageCode(val value: String, val standard: LanguageStandard? = nul
                 "ha" -> return LanguageCode("ha", LanguageStandard.ISO_639_1)
                 "haw" -> return LanguageCode("haw", LanguageStandard.ISO_639_1)
                 "iw" -> return LanguageCode("iw", LanguageStandard.ISO_639_1)
+                "he" -> return LanguageCode("he", LanguageStandard.BCP_47)
                 "hi" -> return LanguageCode("hi", LanguageStandard.BCP_47)
                 "ho" -> return LanguageCode("ho", LanguageStandard.ISO_639_1)
                 "hmn" -> return LanguageCode("hmn", LanguageStandard.ISO_639_1)
@@ -233,7 +235,7 @@ data class LanguageCode(val value: String, val standard: LanguageStandard? = nul
         /**
          * Get LanguageCode with given LanguageId
          */
-        fun of(id: LanguageId): LanguageCode? {
+        internal fun of(id: LanguageId): LanguageCode? {
             when (id) {
                 LanguageId.AFAR -> return LanguageCode("aa", LanguageStandard.ISO_639_1)
                 LanguageId.AFRIKAANS -> return LanguageCode("af", LanguageStandard.BCP_47)

@@ -289,7 +289,7 @@ enum class LanguageId {
                 "ceb" -> return CEBUANO
                 "ch" -> return CHAMORRO
                 "chr" -> return CHEROKEE
-                "zh-CN" -> return CHINESE_SIMPLIFIED
+                "zh-CN", "zh" -> return CHINESE_SIMPLIFIED
                 "zh-TW" -> return CHINESE_TRADITIONAL
                 "kw" -> return CORNISH
                 "co" -> return CORSICAN
@@ -321,7 +321,7 @@ enum class LanguageId {
                 "ht" -> return HAITIAN_CREOLE
                 "ha" -> return HAUSA
                 "haw" -> return HAWAIIAN
-                "iw" -> return HEBREW
+                "iw", "he" -> return HEBREW
                 "hi" -> return HINDI
                 "ho" -> return HIRI_MOTU
                 "hmn" -> return HMONG

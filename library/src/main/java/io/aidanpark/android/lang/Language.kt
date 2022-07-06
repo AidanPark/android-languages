@@ -2,9 +2,8 @@ package io.aidanpark.android.lang
 
 import android.content.Context
 import android.content.res.Configuration
-import android.os.Parcelable
-import kotlinx.parcelize.Parcelize
 import java.util.*
+
 
 /**
  * @description
@@ -12,17 +11,27 @@ import java.util.*
  * @date 2022/05/26
  * @version 1.0
  */
-@Parcelize
-data class Language(
-    val id: LanguageId,
-    val code: LanguageCode? = LanguageCode.of(id),
-    val name: String,
-    val localizedName: String = localizedName(id),
-    val englishName: String = englishName(id),
-    val isNonSpacing: Boolean = id.isNonSpacing(),
-    val isVerticalSupport: Boolean = id.isVerticalSupport(),
-    val isRTL: Boolean = id.isRTL()
-) : Parcelable, Comparable<Language> {
+class Language : Comparable<Language> {
+
+    val id: LanguageId
+    val code: LanguageCode
+    val name: String
+    val localizedName: String
+    val englishName: String
+    val isNonSpacing: Boolean
+    val isVerticalSupport: Boolean
+    val isRTL: Boolean
+
+    private constructor(context: Context, _id: LanguageId, _code: LanguageCode) {
+        id = _id
+        code = _code
+        name = name(context, id)
+        localizedName = localizedName(id)
+        englishName = englishName(id)
+        isNonSpacing = id.isNonSpacing()
+        isVerticalSupport = id.isVerticalSupport()
+        isRTL = id.isRTL()
+    }
 
     companion object {
 
@@ -32,10 +41,39 @@ data class Language(
          * Import all supported languages from this library
          */
         fun getAllLanguages(context: Context): List<Language> {
-            return enumValues<LanguageId>()
-                .map { id ->
-                    Language(id = id, name = name(context, id))
+            return enumValues<LanguageId>().mapNotNull { of(context, it) }
+        }
+
+        /**
+         * Create Language by LanguageId
+         */
+        fun of(context: Context, _id: LanguageId): Language? {
+            LanguageCode.of(_id)?.let {
+                return Language(context, _id, it)
+            }
+            return null
+        }
+
+        /**
+         * Create Language by LanguageCode
+         */
+        fun of(context: Context, _code: LanguageCode): Language? {
+            LanguageId.of(_code.value)?.let {
+                return Language(context, it, _code)
+            }
+            return null
+        }
+
+        /**
+         * Create Language by String code
+         */
+        fun of(context: Context, stringCode: String): Language? {
+            LanguageId.of(stringCode)?.let { _id ->
+                LanguageCode.of(stringCode)?.let { _code ->
+                    return Language(context, _id, _code)
                 }
+            }
+            return null
         }
 
         /**
@@ -47,7 +85,6 @@ data class Language(
             }
             return englishName(id)
         }
-
 
         /**
          * A Localized name with given LanguageId
@@ -470,18 +507,17 @@ data class Language(
                 else -> return null
             }
         }
-
     }
 
     override fun equals(other: Any?): Boolean {
         if (other is Language) {
-            return code == other.code
+            return id == other.id
         }
         return false
     }
 
     override fun hashCode(): Int {
-        return code.hashCode()
+        return id.hashCode()
     }
 
     override fun compareTo(other: Language): Int {
@@ -491,7 +527,8 @@ data class Language(
     override fun toString(): String {
         return "{\n" +
                 "\tid: $id, \n" +
-                "\tcode: ${code?.toString() ?: "null"}, \n" +
+                //"\tcode: ${code?.toString() ?: "null"}, \n" +
+                "\tcode: $code, \n" +
                 "\tname: '$name', \n" +
                 "\tlocalizedName: '$localizedName', \n" +
                 "\tenglishName: '$englishName', \n" +
