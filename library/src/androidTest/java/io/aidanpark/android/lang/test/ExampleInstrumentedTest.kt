@@ -26,20 +26,53 @@ class ExampleInstrumentedTest {
         Language.getAllLanguages(appContext)
             .sorted()
             .map {
-                Log.d("", StringBuilder().append("\n<tr>")
-                    .append("<td>").append(it.name).append("</td>")
-//                    .append("<td>").append(it.code?.value ?: "").append("</td>")
-//                    .append("<td>").append(it.code?.standard ?: "").append("</td>")
-                    .append("<td>").append(it.code.value).append("</td>")
-                    .append("<td>").append(it.code.standard).append("</td>")
-                    .append("<td>").append(it.localizedName).append("</td>")
-                    .append("<td>").append(it.isNonSpacing).append("</td>")
-                    .append("<td>").append(it.isVerticalSupport).append("</td>")
-                    .append("<td>").append(it.isRTL).append("</td>")
-                    .append("</tr>").toString()
-                )
+//                Log.d("", StringBuilder().append("\n<tr>")
+//                    .append("<td>").append(it.name).append("</td>")
+////                    .append("<td>").append(it.code?.value ?: "").append("</td>")
+////                    .append("<td>").append(it.code?.standard ?: "").append("</td>")
+//                    .append("<td>").append(it.code.value).append("</td>")
+//                    .append("<td>").append(it.code.standard).append("</td>")
+//                    .append("<td>").append(it.localizedName).append("</td>")
+//                    .append("<td>").append(it.isNonSpacing).append("</td>")
+//                    .append("<td>").append(it.isVerticalSupport).append("</td>")
+//                    .append("<td>").append(it.isRTL).append("</td>")
+//                    .append("</tr>").toString()
+//                )
 
-                //Log.d("", "\n$it,")
+                Log.d("", it.toString())
             }
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

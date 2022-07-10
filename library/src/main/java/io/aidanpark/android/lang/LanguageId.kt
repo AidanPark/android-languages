@@ -18,12 +18,16 @@ enum class LanguageId {
     ASTURIAN,
     AYMARA,
     AZERBAIJANI,
+
     //AZERI,
+    BAMBARA,
     BASQUE,
     BELARUSIAN,
     BENGALI,//Bangla
     BERBER,
+    BHOJPURI,
     BISLAMA,
+
     //BOHOLANO,
     BOSNIAN,
     BRETON,
@@ -43,10 +47,13 @@ enum class LanguageId {
     CROATIAN,
     CZECH,
     DANISH,
+    DHIVEHI,
+    DOGRI,
     DUTCH,
     ENGLISH,
     ESPERANTO,
     ESTONIAN,
+    EWE,
     FAROESE,
     FIJIAN,//Lauan
     FILIPINO,//Tagalog
@@ -64,6 +71,7 @@ enum class LanguageId {
     GREEK,
     GUARANÍ,
     GUJARATI,
+
     //HAITIAN,
     HAITIAN_CREOLE,
     HAUSA,
@@ -98,12 +106,14 @@ enum class LanguageId {
     KONGO,
     KONKANI,
     KOREAN,
+    KRIO,
     KURDISH,
     KYRGYZ,
     LAO,
     LATIN,
     LATVIAN,
     LAZ,
+
     //LEONESE,
     LEVANTINE_NORTHERN,
     LEVANTINE_SOUTHERN,
@@ -112,19 +122,23 @@ enum class LanguageId {
     LUGANDA,
     LUXEMBOURGISH,
     MACEDONIAN,
+    MAITHILI,
     MALAGASY,
     MALAY,
     MALAYALAM,
     MALTESE,
+    MANIPURI,
     MANX,
     MAORI,
     MARATHI,
     MARSHALLESE,
+    MIZO,
     MOLDOVAN,
     MONGOLIAN,
     MONTENEGRIN,
     NAHUATL,
     NAURUAN,
+
     //NAVAHO,
     NDEBELE_NORTHERN,
     NDEBELE_SOUTHERN,
@@ -132,6 +146,7 @@ enum class LanguageId {
     NORWEGIAN,
     NYANJA,//Chichewa
     OCCITAN,
+    ODIA,
     OROMO,
     PALAUAN,
     PASHTO,
@@ -173,6 +188,7 @@ enum class LanguageId {
     TELUGU,
     TETUM,
     THAI,
+    TIGRINYA,
     TOK_PISIN,
     TONGAN,
     TSONGA,
@@ -181,8 +197,10 @@ enum class LanguageId {
     TURKISH,
     TURKMEN,
     TUROYO,
+    TWI,
     UKRAINIAN,
     URDU,
+    UYGHUR,
     UZBEK,
     VASTESE,
     VENDA,
@@ -265,190 +283,203 @@ enum class LanguageId {
         fun of(code: String): LanguageId? {
             when (code) {
                 "aa" -> return AFAR
+                "aeb" -> return TUNISIAN_ARABIC
                 "af" -> return AFRIKAANS
-                "sq" -> return ALBANIAN
+                "ajp" -> return LEVANTINE_SOUTHERN
+                "ak", "tw" -> return TWI
                 "am" -> return AMHARIC
-                "ar" -> return ARABIC
                 "an" -> return ARAGONESE
-                "hy" -> return ARMENIAN
+                "apc" -> return LEVANTINE_NORTHERN
+                "ar" -> return ARABIC
                 "as" -> return ASSAMESE
                 "ast" -> return ASTURIAN
                 "ay" -> return AYMARA
                 "az" -> return AZERBAIJANI
-                "eu" -> return BASQUE
+                "bm" -> return BAMBARA
                 "be" -> return BELARUSIAN
-                "bn" -> return BENGALI
                 "ber" -> return BERBER
-                "bi" -> return BISLAMA
-                "bs" -> return BOSNIAN
-                "br" -> return BRETON
                 "bg" -> return BULGARIAN
-                "my" -> return BURMESE
-                "yue" -> return CANTONESE
+                "bho" -> return BHOJPURI
+                "bi" -> return BISLAMA
+                "bn" -> return BENGALI
+                "br" -> return BRETON
+                "bs" -> return BOSNIAN
                 "ca" -> return CATALAN
                 "ceb" -> return CEBUANO
                 "ch" -> return CHAMORRO
                 "chr" -> return CHEROKEE
-                "zh-CN", "zh" -> return CHINESE_SIMPLIFIED
-                "zh-TW" -> return CHINESE_TRADITIONAL
-                "kw" -> return CORNISH
+                "cnr" -> return MONTENEGRIN
                 "co" -> return CORSICAN
                 "cr" -> return CREE
-                "hr" -> return CROATIAN
+                "crs" -> return SEYCHELLOIS_CREOLE
                 "cs" -> return CZECH
+                "cy" -> return WELSH
                 "da" -> return DANISH
-                "nl" -> return DUTCH
+                "de" -> return GERMAN
+                "doi" -> return DOGRI
+                "dv" -> return DHIVEHI
+                "ee" -> return EWE
+                "el" -> return GREEK
                 "en" -> return ENGLISH
                 "eo" -> return ESPERANTO
+                "es" -> return SPANISH
                 "et" -> return ESTONIAN
-                "fo" -> return FAROESE
-                "fj" -> return FIJIAN
-                "tl" -> return FILIPINO
+                "eu" -> return BASQUE
+                "fa" -> return PERSIAN
+                "ff" -> return FULA
                 "fi" -> return FINNISH
+                "fj" -> return FIJIAN
+                "fo" -> return FAROESE
                 "fr" -> return FRENCH
-                "fy" -> return FRISIAN
-                "stq" -> return FRISIAN_SATERLAND
                 "frr" -> return FRISIAN_NORTHERN
                 "fry" -> return FRISIAN_WESTERN
-                "ff" -> return FULA
+                "fy" -> return FRISIAN
+                "ga" -> return IRISH
+                "gd" -> return SCOTS_GAELIC
                 "gl" -> return GALICIAN
-                "ka" -> return GEORGIAN
-                "de" -> return GERMAN
-                "ki" -> return GIKUYU
-                "el" -> return GREEK
-                "gug" -> return GUARANÍ
                 "gu" -> return GUJARATI
-                "ht" -> return HAITIAN_CREOLE
+                "gn", "gug" -> return GUARANÍ
+                "gv" -> return MANX
                 "ha" -> return HAUSA
                 "haw" -> return HAWAIIAN
-                "iw", "he" -> return HEBREW
                 "hi" -> return HINDI
-                "ho" -> return HIRI_MOTU
                 "hmn" -> return HMONG
-                "mww" -> return HMONG_DAW
+                "ho" -> return HIRI_MOTU
+                "hr" -> return CROATIAN
+                "ht" -> return HAITIAN_CREOLE
                 "hu" -> return HUNGARIAN
-                "is" -> return ICELANDIC
-                "io" -> return IDO
+                "hy" -> return ARMENIAN
+                "id" -> return INDONESIAN
                 "ig" -> return IGBO
                 "ilo" -> return ILOCANO
-                "id" -> return INDONESIAN
-                "moe" -> return INNU_AIMUN
                 "ina" -> return INTERLINGUA
-                "ga" -> return IRISH
+                "io" -> return IDO
+                "is" -> return ICELANDIC
                 "it" -> return ITALIAN
+                "iw", "he" -> return HEBREW
                 "ja" -> return JAPANESE
                 "jw" -> return JAVANESE
-                "lad" -> return JUDEO_SPANISH
+                "ka" -> return GEORGIAN
                 "kab" -> return KABYLE
-                "kn" -> return KANNADA
-                "kk" -> return KAZAKH
-                "kha" -> return KHASI
-                "km" -> return KHMER
-                "rw" -> return KINYARWANDA
-                "rn" -> return KIRUNDI
-                "tlh" -> return KLINGON
-                "tlh-Qaak" -> return KLINGON_PLQAD
                 "kg" -> return KONGO
-                "kok" -> return KONKANI
+                "kha" -> return KHASI
+                "ki" -> return GIKUYU
+                "kk" -> return KAZAKH
+                "km" -> return KHMER
+                "kn" -> return KANNADA
                 "ko" -> return KOREAN
-                "ku" -> return KURDISH
+                "kri" -> return KRIO
+                "gom", "kok" -> return KONKANI
+                "ckb", "ku" -> return KURDISH
+                "kw" -> return CORNISH
                 "ky" -> return KYRGYZ
-                "lo" -> return LAO
                 "la" -> return LATIN
+                "lad" -> return JUDEO_SPANISH
+                "lb" -> return LUXEMBOURGISH
+                "lg" -> return LUGANDA
+                "ln" -> return LINGALA
+                "lo" -> return LAO
+                "lt" -> return LITHUANIAN
+                "lus" -> return MIZO
                 "lv" -> return LATVIAN
                 "lzz" -> return LAZ
-                "apc" -> return LEVANTINE_NORTHERN
-                "ajp" -> return LEVANTINE_SOUTHERN
-                "ln" -> return LINGALA
-                "lt" -> return LITHUANIAN
-                "lg" -> return LUGANDA
-                "lb" -> return LUXEMBOURGISH
-                "mk" -> return MACEDONIAN
+                "mai" -> return MAITHILI
                 "mg" -> return MALAGASY
-                "ms" -> return MALAY
-                "ml" -> return MALAYALAM
-                "mt" -> return MALTESE
-                "gv" -> return MANX
-                "mi" -> return MAORI
-                "mr" -> return MARATHI
                 "mh" -> return MARSHALLESE
-                "mo" -> return MOLDOVAN
+                "mi" -> return MAORI
+                "mk" -> return MACEDONIAN
+                "ml" -> return MALAYALAM
                 "mn" -> return MONGOLIAN
-                "cnr" -> return MONTENEGRIN
-                "nah" -> return NAHUATL
+                "mni-Mtei" -> return MANIPURI
+                "mo" -> return MOLDOVAN
+                "moe" -> return INNU_AIMUN
+                "mr" -> return MARATHI
+                "ms" -> return MALAY
+                "mt" -> return MALTESE
+                "mww" -> return HMONG_DAW
+                "my" -> return BURMESE
                 "na" -> return NAURUAN
+                "nah" -> return NAHUATL
+                "nap" -> return VASTESE
                 "nde" -> return NDEBELE_NORTHERN
-                "nr" -> return NDEBELE_SOUTHERN
                 "ne" -> return NEPALI
+                "nl" -> return DUTCH
                 "no" -> return NORWEGIAN
+                "nr" -> return NDEBELE_SOUTHERN
+                "nso" -> return SOTHO_NORTHERN
                 "ny" -> return NYANJA
                 "oc" -> return OCCITAN
                 "om" -> return OROMO
-                "pau" -> return PALAUAN
-                "ps" -> return PASHTO
-                "fa" -> return PERSIAN
-                "pl" -> return POLISH
-                "pt" -> return PORTUGUESE
-                "pa" -> return PUNJABI
-                "qu" -> return QUECHUA
+                "or" -> return ODIA
                 "otq" -> return QUERETARO_OTOMI
+                "pa" -> return PUNJABI
+                "pau" -> return PALAUAN
+                "pl" -> return POLISH
+                "ps" -> return PASHTO
+                "pt" -> return PORTUGUESE
+                "qu" -> return QUECHUA
                 "rhg" -> return ROHINGYA
-                "ro" -> return ROMANIAN
                 "rm" -> return ROMANSH
+                "rn" -> return KIRUNDI
+                "ro" -> return ROMANIAN
                 "ru" -> return RUSSIAN
-                "sm" -> return SAMOAN
+                "rw" -> return KINYARWANDA
                 "sa" -> return SANSKRIT
                 "sco" -> return SCOTS
-                "gd" -> return SCOTS_GAELIC
-                "sr" -> return SERBIAN
-                "sr-Cyrl" -> return SERBIAN_CYRILLIC
-                "sr-Latn" -> return SERBIAN_LATIN
-                "st" -> return SESOTHO
-                "crs" -> return SEYCHELLOIS_CREOLE
-                "sn" -> return SHONA
                 "sd" -> return SINDHI
                 "si" -> return SINHALA
                 "sk" -> return SLOVAK
                 "sl" -> return SLOVENIAN
+                "sm" -> return SAMOAN
+                "sn" -> return SHONA
                 "so" -> return SOMALI
-                "nso" -> return SOTHO_NORTHERN
-                "es" -> return SPANISH
-                "su" -> return SUNDANESE
-                "sw" -> return SWAHILI
+                "sq" -> return ALBANIAN
+                "sr" -> return SERBIAN
+                "sr-Cyrl" -> return SERBIAN_CYRILLIC
+                "sr-Latn" -> return SERBIAN_LATIN
                 "ss" -> return SWATI
+                "st" -> return SESOTHO
+                "stq" -> return FRISIAN_SATERLAND
+                "su" -> return SUNDANESE
                 "sv" -> return SWEDISH
-                "ty" -> return TAHITIAN
-                "tg" -> return TAJIK
+                "sw" -> return SWAHILI
                 "ta" -> return TAMIL
-                "tt" -> return TATAR
                 "te" -> return TELUGU
                 "tet" -> return TETUM
+                "tg" -> return TAJIK
                 "th" -> return THAI
-                "tpi" -> return TOK_PISIN
-                "to" -> return TONGAN
-                "ts" -> return TSONGA
-                "tn" -> return TSWANA
-                "aeb" -> return TUNISIAN_ARABIC
-                "tr" -> return TURKISH
+                "ti" -> return TIGRINYA
                 "tk" -> return TURKMEN
+                "tl" -> return FILIPINO
+                "tlh" -> return KLINGON
+                "tlh-Qaak" -> return KLINGON_PLQAD
+                "tn" -> return TSWANA
+                "to" -> return TONGAN
+                "tpi" -> return TOK_PISIN
+                "tr" -> return TURKISH
                 "tru" -> return TUROYO
+                "ts" -> return TSONGA
+                "tt" -> return TATAR
+                "ty" -> return TAHITIAN
+                "ug" -> return UYGHUR
                 "uk" -> return UKRAINIAN
                 "ur" -> return URDU
                 "uz" -> return UZBEK
-                "nap" -> return VASTESE
                 "ve" -> return VENDA
                 "vi" -> return VIETNAMESE
                 "vo" -> return VOLAPÜK
                 "vro" -> return VÕRO
                 "wa" -> return WALLOON
-                "cy" -> return WELSH
                 "wo" -> return WOLOF
                 "xh" -> return XHOSA
                 "yi" -> return YIDDISH
                 "yo" -> return YORUBA
                 "yua" -> return YUCATEC_MAYA
-                "zza" -> return ZAZAKI
+                "yue" -> return CANTONESE
+                "zh-CN", "zh" -> return CHINESE_SIMPLIFIED
+                "zh-TW" -> return CHINESE_TRADITIONAL
                 "zu" -> return ZULU
+                "zza" -> return ZAZAKI
                 else -> return null
             }
         }

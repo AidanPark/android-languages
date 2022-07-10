@@ -25,10 +25,12 @@ Provides properties of languages (name, code, etc..) in an Android environment.
 <tr><td>Asturian</td><td>ast</td><td>ISO_639_2</td><td></td><td>false</td><td>false</td><td>false</td></tr>
 <tr><td>Aymara</td><td>ay</td><td>ISO_639_1</td><td></td><td>false</td><td>false</td><td>false</td></tr>
 <tr><td>Azerbaijani</td><td>az</td><td>ISO_639_1</td><td>Azərbaycan</td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Bambara</td><td>bm</td><td>ISO_639_1</td><td></td><td>false</td><td>false</td><td>false</td></tr>
 <tr><td>Basque</td><td>eu</td><td>ISO_639_1</td><td>Euskara</td><td>false</td><td>false</td><td>false</td></tr>
 <tr><td>Belarusian</td><td>be</td><td>BCP_47</td><td>Беларуская</td><td>false</td><td>false</td><td>false</td></tr>
 <tr><td>Bengali</td><td>bn</td><td>BCP_47</td><td>বাংলা</td><td>false</td><td>false</td><td>false</td></tr>
 <tr><td>Berber</td><td>ber</td><td>ISO_639_3</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Bhojpuri</td><td>bho</td><td>ISO_639_2</td><td></td><td>false</td><td>false</td><td>false</td></tr>
 <tr><td>Bislama</td><td>bi</td><td>ISO_639_1</td><td></td><td>false</td><td>false</td><td>false</td></tr>
 <tr><td>Bosnian</td><td>bs</td><td>ISO_639_1</td><td>Босанци</td><td>false</td><td>false</td><td>false</td></tr>
 <tr><td>Breton</td><td>br</td><td>ISO_639_1</td><td></td><td>false</td><td>false</td><td>false</td></tr>
@@ -48,10 +50,13 @@ Provides properties of languages (name, code, etc..) in an Android environment.
 <tr><td>Croatian</td><td>hr</td><td>BCP_47</td><td>Hrvatski</td><td>false</td><td>false</td><td>false</td></tr>
 <tr><td>Czech</td><td>cs</td><td>BCP_47</td><td>Čeština</td><td>false</td><td>false</td><td>false</td></tr>
 <tr><td>Danish</td><td>da</td><td>BCP_47</td><td>Dansk</td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Dhivehi</td><td>dv</td><td>ISO_639_1</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Dogri</td><td>doi</td><td>ISO_639_2</td><td></td><td>false</td><td>false</td><td>false</td></tr>
 <tr><td>Dutch</td><td>nl</td><td>BCP_47</td><td>Nederlands</td><td>false</td><td>false</td><td>false</td></tr>
 <tr><td>English</td><td>en</td><td>BCP_47</td><td>English</td><td>false</td><td>false</td><td>false</td></tr>
 <tr><td>Esperanto</td><td>eo</td><td>BCP_47</td><td></td><td>false</td><td>false</td><td>false</td></tr>
 <tr><td>Estonian</td><td>et</td><td>BCP_47</td><td>Eesti</td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Ewe</td><td>ee</td><td>ISO_639_1</td><td></td><td>false</td><td>false</td><td>false</td></tr>
 <tr><td>Faroese</td><td>fo</td><td>ISO_639_1</td><td></td><td>false</td><td>false</td><td>false</td></tr>
 <tr><td>Fijian</td><td>fj</td><td>ISO_639_3</td><td></td><td>false</td><td>false</td><td>false</td></tr>
 <tr><td>Filipino</td><td>tl</td><td>BCP_47</td><td>Filipino</td><td>false</td><td>false</td><td>false</td></tr>
@@ -102,6 +107,7 @@ Provides properties of languages (name, code, etc..) in an Android environment.
 <tr><td>Kongo</td><td>kg</td><td>ISO_639_1</td><td></td><td>false</td><td>false</td><td>false</td></tr>
 <tr><td>Konkani</td><td>kok</td><td>ISO_639_1</td><td></td><td>false</td><td>false</td><td>false</td></tr>
 <tr><td>Korean</td><td>ko</td><td>BCP_47</td><td>한국어</td><td>false</td><td>true</td><td>false</td></tr>
+<tr><td>Krio</td><td>kri</td><td>ISO_639_3</td><td></td><td>false</td><td>false</td><td>false</td></tr>
 <tr><td>Kurdish</td><td>ku</td><td>ISO_639_1</td><td></td><td>false</td><td>false</td><td>true</td></tr>
 <tr><td>Kyrgyz</td><td>ky</td><td>ISO_639_1</td><td></td><td>false</td><td>false</td><td>false</td></tr>
 <tr><td>Lao</td><td>lo</td><td>ISO_639_1</td><td>ລາວ</td><td>true</td><td>false</td><td>false</td></tr>
@@ -115,14 +121,17 @@ Provides properties of languages (name, code, etc..) in an Android environment.
 <tr><td>Luganda</td><td>lg</td><td>ISO_639_1</td><td></td><td>false</td><td>false</td><td>false</td></tr>
 <tr><td>Luxembourgish</td><td>lb</td><td>ISO_639_1</td><td></td><td>false</td><td>false</td><td>false</td></tr>
 <tr><td>Macedonian</td><td>mk</td><td>BCP_47</td><td>Македонски</td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Maithili</td><td>mai</td><td>ISO_639_2</td><td></td><td>false</td><td>false</td><td>false</td></tr>
 <tr><td>Malagasy</td><td>mg</td><td>ISO_639_1</td><td></td><td>false</td><td>false</td><td>false</td></tr>
 <tr><td>Malay</td><td>ms</td><td>BCP_47</td><td>Bahasa Melayu</td><td>false</td><td>false</td><td>false</td></tr>
 <tr><td>Malayalam</td><td>ml</td><td>ISO_639_1</td><td>മലയാളം</td><td>false</td><td>false</td><td>false</td></tr>
 <tr><td>Maltese</td><td>mt</td><td>BCP_47</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Manipuri</td><td>mni-Mtei</td><td>null</td><td></td><td>false</td><td>false</td><td>false</td></tr>
 <tr><td>Manx</td><td>gv</td><td>ISO_639_1</td><td></td><td>false</td><td>false</td><td>false</td></tr>
 <tr><td>Maori</td><td>mi</td><td>ISO_639_1</td><td></td><td>false</td><td>false</td><td>false</td></tr>
 <tr><td>Marathi</td><td>mr</td><td>BCP_47</td><td>मराठी</td><td>false</td><td>false</td><td>false</td></tr>
 <tr><td>Marshallese</td><td>mh</td><td>ISO_639_1</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Mizo</td><td>lus</td><td>ISO_639_2</td><td></td><td>false</td><td>false</td><td>false</td></tr>
 <tr><td>Moldovan</td><td>mo</td><td>ISO_639_1</td><td></td><td>false</td><td>false</td><td>false</td></tr>
 <tr><td>Mongolian</td><td>mn</td><td>ISO_639_1</td><td>Монгол</td><td>false</td><td>false</td><td>false</td></tr>
 <tr><td>Montenegrin</td><td>cnr</td><td>ISO_639_2</td><td></td><td>false</td><td>false</td><td>false</td></tr>
@@ -134,6 +143,7 @@ Provides properties of languages (name, code, etc..) in an Android environment.
 <tr><td>Norwegian</td><td>no</td><td>BCP_47</td><td>Norsk</td><td>false</td><td>false</td><td>false</td></tr>
 <tr><td>Nyanja (Chichewa)</td><td>ny</td><td>ISO_639_1</td><td></td><td>false</td><td>false</td><td>false</td></tr>
 <tr><td>Occitan</td><td>oc</td><td>ISO_639_1</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Odia</td><td>or</td><td>ISO_639_1</td><td></td><td>false</td><td>false</td><td>false</td></tr>
 <tr><td>Oromo</td><td>om</td><td>ISO_639_1</td><td></td><td>false</td><td>false</td><td>false</td></tr>
 <tr><td>Palauan</td><td>pau</td><td>ISO_639_2</td><td></td><td>false</td><td>false</td><td>false</td></tr>
 <tr><td>Pashto</td><td>ps</td><td>ISO_639_1</td><td></td><td>false</td><td>false</td><td>false</td></tr>
@@ -175,6 +185,7 @@ Provides properties of languages (name, code, etc..) in an Android environment.
 <tr><td>Telugu</td><td>te</td><td>BCP_47</td><td>తెలుగు</td><td>false</td><td>false</td><td>false</td></tr>
 <tr><td>Tetum</td><td>tet</td><td>ISO_639_2</td><td></td><td>false</td><td>false</td><td>false</td></tr>
 <tr><td>Thai</td><td>th</td><td>BCP_47</td><td>ไทย</td><td>true</td><td>false</td><td>false</td></tr>
+<tr><td>Tigrinya</td><td>ti</td><td>ISO_639_1</td><td></td><td>false</td><td>false</td><td>false</td></tr>
 <tr><td>Tok Pisin</td><td>tpi</td><td>ISO_639_2</td><td></td><td>false</td><td>false</td><td>false</td></tr>
 <tr><td>Tongan</td><td>to</td><td>ISO_639_1</td><td></td><td>false</td><td>false</td><td>false</td></tr>
 <tr><td>Tsonga</td><td>ts</td><td>ISO_639_1</td><td></td><td>false</td><td>false</td><td>false</td></tr>
@@ -183,8 +194,10 @@ Provides properties of languages (name, code, etc..) in an Android environment.
 <tr><td>Turkish</td><td>tr</td><td>BCP_47</td><td>Türkçe</td><td>false</td><td>false</td><td>false</td></tr>
 <tr><td>Turkmen</td><td>tk</td><td>ISO_639_1</td><td></td><td>false</td><td>false</td><td>false</td></tr>
 <tr><td>Turoyo</td><td>tru</td><td>ISO_639_3</td><td></td><td>false</td><td>false</td><td>false</td></tr>
+<tr><td>Twi</td><td>ak</td><td>null</td><td></td><td>false</td><td>false</td><td>false</td></tr>
 <tr><td>Ukrainian</td><td>uk</td><td>BCP_47</td><td>Українська</td><td>false</td><td>false</td><td>false</td></tr>
 <tr><td>Urdu</td><td>ur</td><td>BCP_47</td><td>اردو</td><td>false</td><td>false</td><td>true</td></tr>
+<tr><td>Uyghur</td><td>ug</td><td>ISO_639_1</td><td></td><td>false</td><td>false</td><td>false</td></tr>
 <tr><td>Uzbek</td><td>uz</td><td>ISO_639_1</td><td>Oʻzbekcha</td><td>false</td><td>false</td><td>false</td></tr>
 <tr><td>Vastese</td><td>nap</td><td>ISO_639_3</td><td></td><td>false</td><td>false</td><td>false</td></tr>
 <tr><td>Venda</td><td>ve</td><td>ISO_639_1</td><td></td><td>false</td><td>false</td><td>false</td></tr>
