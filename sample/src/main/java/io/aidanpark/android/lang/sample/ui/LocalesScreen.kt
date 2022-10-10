@@ -1,4 +1,4 @@
-package io.aidanpark.android.lang.test.ui
+package io.aidanpark.android.lang.sample.ui
 
 import androidx.compose.animation.animateContentSize
 import androidx.compose.animation.core.Spring
@@ -20,8 +20,7 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import io.aidanpark.android.lang.Language
-import io.aidanpark.android.lang.LanguageId
-import io.aidanpark.android.lang.test.R
+import io.aidanpark.android.lang.sample.R
 import java.util.*
 
 @Composable

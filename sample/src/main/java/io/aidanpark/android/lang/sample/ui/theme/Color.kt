@@ -1,4 +1,4 @@
-package io.aidanpark.android.lang.test.ui.theme
+package io.aidanpark.android.lang.sample.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

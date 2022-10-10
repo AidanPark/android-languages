@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="io.aidanpark.android.lang.test">
+    package="io.aidanpark.android.lang.sample">
 
     <application
         android:allowBackup="true"
@@ -12,7 +12,6 @@
         <activity
             android:name=".ui.LocaleListActivity"
             android:exported="true"
-            android:label="@string/app_name"
             android:theme="@style/Theme.AndroidLocale">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -2,6 +2,8 @@ package io.aidanpark.android.lang
 
 import android.content.Context
 import android.content.res.Configuration
+import android.os.Parcelable
+import kotlinx.parcelize.Parcelize
 import java.util.*
 
 
@@ -9,33 +11,21 @@ import java.util.*
  * @description
  * @author AidanPark
  * @date 2022/05/26
- * @version 1.0
+ * @version 1.1
  */
-class Language : Comparable<Language> {
-
-    val id: LanguageId
-    val code: LanguageCode
-    val name: String
-    val localizedName: String
-    val englishName: String
-    val isNonSpacing: Boolean
-    val isVerticalSupport: Boolean
+@Parcelize
+class Language(
+    val id: LanguageId,
+    val code: LanguageCode,
+    val name: String,
+    val localizedName: String,
+    val englishName: String,
+    val isNonSpacing: Boolean,
+    val isVerticalSupport: Boolean,
     val isRTL: Boolean
-
-    private constructor(context: Context, _id: LanguageId, _code: LanguageCode) {
-        id = _id
-        code = _code
-        name = name(context, id)
-        localizedName = localizedName(id)
-        englishName = englishName(id)
-        isNonSpacing = id.isNonSpacing()
-        isVerticalSupport = id.isVerticalSupport()
-        isRTL = id.isRTL()
-    }
+) : Comparable<Language>, Parcelable {
 
     companion object {
-
-        private const val TAG: String = "Language"
 
         /**
          * Import all supported languages from this library
@@ -47,9 +37,18 @@ class Language : Comparable<Language> {
         /**
          * Create Language by LanguageId
          */
-        fun of(context: Context, _id: LanguageId): Language? {
-            LanguageCode.of(_id)?.let {
-                return Language(context, _id, it)
+        fun of(context: Context, id: LanguageId): Language? {
+            LanguageCode.of(id)?.let { code ->
+                return Language(
+                    id = id,
+                    code = code,
+                    name = name(context, id),
+                    localizedName = localizedName(id),
+                    englishName = englishName(id),
+                    isNonSpacing = id.isNonSpacing(),
+                    isVerticalSupport = id.isVerticalSupport(),
+                    isRTL = id.isRTL()
+                )
             }
             return null
         }
@@ -57,9 +56,18 @@ class Language : Comparable<Language> {
         /**
          * Create Language by LanguageCode
          */
-        fun of(context: Context, _code: LanguageCode): Language? {
-            LanguageId.of(_code.value)?.let {
-                return Language(context, it, _code)
+        fun of(context: Context, code: LanguageCode): Language? {
+            LanguageId.of(code.value)?.let { id ->
+                return Language(
+                    id = id,
+                    code = code,
+                    name = name(context, id),
+                    localizedName = localizedName(id),
+                    englishName = englishName(id),
+                    isNonSpacing = id.isNonSpacing(),
+                    isVerticalSupport = id.isVerticalSupport(),
+                    isRTL = id.isRTL()
+                )
             }
             return null
         }
@@ -68,9 +76,18 @@ class Language : Comparable<Language> {
          * Create Language by String code
          */
         fun of(context: Context, stringCode: String): Language? {
-            LanguageId.of(stringCode)?.let { _id ->
-                LanguageCode.of(stringCode)?.let { _code ->
-                    return Language(context, _id, _code)
+            LanguageId.of(stringCode)?.let { id ->
+                LanguageCode.of(stringCode)?.let { code ->
+                    return Language(
+                        id = id,
+                        code = code,
+                        name = name(context, id),
+                        localizedName = localizedName(id),
+                        englishName = englishName(id),
+                        isNonSpacing = id.isNonSpacing(),
+                        isVerticalSupport = id.isVerticalSupport(),
+                        isRTL = id.isRTL()
+                    )
                 }
             }
             return null
@@ -527,7 +544,6 @@ class Language : Comparable<Language> {
     override fun toString(): String {
         return "{\n" +
                 "\tid: $id, \n" +
-                //"\tcode: ${code?.toString() ?: "null"}, \n" +
                 "\tcode: $code, \n" +
                 "\tname: '$name', \n" +
                 "\tlocalizedName: '$localizedName', \n" +
@@ -537,7 +553,6 @@ class Language : Comparable<Language> {
                 "\tisRTL: $isRTL\n" +
                 "}"
     }
-
 }
 
 
