@@ -39,7 +39,12 @@ class ExampleInstrumentedTest {
 //                    .append("</tr>").toString()
 //                )
 
-                Log.d("", it.toString())
+                if(it.localizedName.isNotEmpty()) {
+                    Log.d("", "\"${it.localizedName}\" -> return LanguageId.${it.id}")
+                }
+
+
+                //Log.d("", it.toString())
             }
     }
 }

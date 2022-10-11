@@ -483,6 +483,89 @@ enum class LanguageId {
                 else -> return null
             }
         }
+
+        /**
+         * Get LanguageId with given localized name
+         */
+        fun byLocalizedName(localizedName: String): LanguageId? {
+            when (localizedName) {
+                "Afrikaans" -> return AFRIKAANS
+                "Shqip" -> return ALBANIAN
+                "العربية" -> return ARABIC
+                "Հայերեն" -> return ARMENIAN
+                "Azərbaycan" -> return AZERBAIJANI
+                "Euskara" -> return BASQUE
+                "Беларуская" -> return BELARUSIAN
+                "বাংলা" -> return BENGALI
+                "Босанци" -> return BOSNIAN
+                "Български" -> return BULGARIAN
+                "မြန်မာ(Unicode)" -> return BURMESE
+                "粤语" -> return CANTONESE
+                "Català" -> return CATALAN
+                "中文（简体)" -> return CHINESE_SIMPLIFIED
+                "中文（繁體)" -> return CHINESE_TRADITIONAL
+                "Hrvatski" -> return CROATIAN
+                "Čeština" -> return CZECH
+                "Dansk" -> return DANISH
+                "Nederlands" -> return DUTCH
+                "English" -> return ENGLISH
+                "Eesti" -> return ESTONIAN
+                "Filipino" -> return FILIPINO
+                "Suomi" -> return FINNISH
+                "Français" -> return FRENCH
+                "Galego" -> return GALICIAN
+                "ქართული" -> return GEORGIAN
+                "Deutsch" -> return GERMAN
+                "GIKUYU" -> return GIKUYU
+                "Ελληνικά" -> return GREEK
+                "ગુજરાતી" -> return GUJARATI
+                "עברית" -> return HEBREW
+                "हिन्दी" -> return HINDI
+                "Magyar" -> return HUNGARIAN
+                "Íslenska" -> return ICELANDIC
+                "Bahasa Indonesia" -> return INDONESIAN
+                "Gaeilge" -> return IRISH
+                "Italiano" -> return ITALIAN
+                "日本語" -> return JAPANESE
+                "ಕನ್ನಡ" -> return KANNADA
+                "Қазақша" -> return KAZAKH
+                "ខ្មែរយូនីកូដ" -> return KHMER
+                "한국어" -> return KOREAN
+                "ລາວ" -> return LAO
+                "Latviešu" -> return LATVIAN
+                "LAZ" -> return LAZ
+                "Lietuvių" -> return LITHUANIAN
+                "Македонски" -> return MACEDONIAN
+                "Bahasa Melayu" -> return MALAY
+                "മലയാളം" -> return MALAYALAM
+                "मराठी" -> return MARATHI
+                "Монгол" -> return MONGOLIAN
+                "नेपाली" -> return NEPALI
+                "Norsk" -> return NORWEGIAN
+                "فارسی" -> return PERSIAN
+                "Polski" -> return POLISH
+                "Português" -> return PORTUGUESE
+                "ਪੰਜਾਬੀ " -> return PUNJABI
+                "Română" -> return ROMANIAN
+                "Русский" -> return RUSSIAN
+                "Srpski" -> return SERBIAN
+                "සිංහල" -> return SINHALA
+                "Slovenčina" -> return SLOVAK
+                "Slovenščina" -> return SLOVENIAN
+                "Español" -> return SPANISH
+                "Svenska" -> return SWEDISH
+                "Тоҷикӣ" -> return TAJIK
+                "தமிழ்" -> return TAMIL
+                "తెలుగు" -> return TELUGU
+                "ไทย" -> return THAI
+                "Türkçe" -> return TURKISH
+                "Українська" -> return UKRAINIAN
+                "اردو" -> return URDU
+                "Oʻzbekcha" -> return UZBEK
+                "Tiếng Việt" -> return VIETNAMESE
+                else -> return null
+            }
+        }
     }
 }
 
